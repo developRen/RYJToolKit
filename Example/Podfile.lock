@@ -1,15 +1,26 @@
 PODS:
-  - RYJToolKit (0.1.0)
+  - RealReachability (1.3.0):
+    - RealReachability/Connection (= 1.3.0)
+    - RealReachability/Ping (= 1.3.0)
+  - RealReachability/Connection (1.3.0)
+  - RealReachability/Ping (1.3.0)
+  - RYJToolKit (0.2.0):
+    - RealReachability
 
 DEPENDENCIES:
   - RYJToolKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RealReachability
 
 EXTERNAL SOURCES:
   RYJToolKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RYJToolKit: e0fda6de0e7cbbd8ba47fef29fb5a9b0628ad370
+  RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
+  RYJToolKit: 5221e135f4b8f0b6ec7c65654dc7e8bff1067ac6
 
 PODFILE CHECKSUM: 4ea56b659cc647fb55199ef1bd596c4e964ab0aa
 

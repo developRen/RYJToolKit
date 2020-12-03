@@ -10,3 +10,25 @@
 #endif
 #endif
 
+//
+//  RYJToolKit.pch
+//  Pods
+//
+//  Created by 任一杰 on 2020/11/30.
+//
+
+#ifndef RYJToolKit_pch
+#define RYJToolKit_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <objc/runtime.h>
+
+// 基础宏定义
+#import "RYJToolMarco.h"
+// 分类
+#import "NSObject+RYJTool.h"
+
+#endif /* RYJToolKit_pch */
+

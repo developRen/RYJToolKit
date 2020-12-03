@@ -7,26 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0006C089DB3D4D1E0CCF82FAB8FAC61B /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A34F8F0D712C8188118E49C9659B5 /* ReachStateWWAN.m */; };
 		036C63310E79CC8396DA93C99E36E5E0 /* Pods-RYJToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89680E6E85A3834235A0BEC0F85A69EE /* Pods-RYJToolKit_Tests-dummy.m */; };
-		2C98CDE831767926EA634030DFC97E60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2F3F3E9DC1A9E18BCDB9EA1137694882 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B95DB70951E5A4B80C162746444A249D /* ReplaceMe.m */; };
-		5FAE97E08E0CC5AC529204133D4236D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0563D76CC034A6687AA23BD7EF724330 /* RYJPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D09DB98B950C2B8F8C494495CD5D3EA /* RYJPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15AD08856C30DD113621A59A421644A0 /* NSArray+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F564619BD6F4026D7544FD5C89457B3 /* NSArray+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18BE4343DA1E73F24CB898316A73DC26 /* UIButton+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 87231FAA3F1485CB37F3DEBC49AD7D11 /* UIButton+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C4EB366F850AE590C95E895C03E5320 /* NSFileManager+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2BBF3D8B8E874AA422EEC3136347CA /* NSFileManager+RYJTool.m */; };
+		1EE76E2B6232C62400F89580B3FDF957 /* Pods-RYJToolKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7871D2ED0D82BAF8CB685BB81CD1A98A /* Pods-RYJToolKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC5F4E7898EAE1F6D7A0BDDC7800787 /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C314C33C3B3E10AA256A85134D79853C /* LocalConnection.m */; };
+		2525903B32CD4230456D3DE01AF7B34A /* RealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51511DA0C11C9403AD365E357CB9FCC /* RealReachability.framework */; };
+		34D839DD189F4E8A2EF890BE551DDCCC /* RYJTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D5AA5A225565A8BD986CF9B4DB21F35E /* RYJTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37EB78784D2A0FA0BC733B5F9F78B548 /* RYJToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B77FC49804946A03879D0BED77A10EBD /* RYJToolKit-dummy.m */; };
+		39D59BD96BCAF48200FF6DF650CAA97C /* FSMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6E8BF4F7CA036D7987F4781EBA098C /* FSMDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B4B9292ACA640D720F43A8954D32DF8 /* RYJToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBF4C469EFFCC734BA689D1D0EFCBEB /* RYJToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43078A91D288D242A10DE05DF1767A70 /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F0FD8852D0F1428814370D59CC0DBE /* PingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		485F39C64E56475365B731BDC403E8D0 /* RYJReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D7982B6F6DC4928D1845CAF69E53C910 /* RYJReachability.m */; };
+		49037484D925E85D669845054FA4ECAE /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A70387FC0FF3DF54530081236E8E4361 /* RealReachability.m */; };
+		4B8F82C6CE7EDF087E873392F81D4458 /* RYJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB1F5FDD1885120983D11A1CBC0280E /* RYJTimer.m */; };
+		52EF77EBDDDF1A152483A2C9E2571204 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 0794437BE127B3FCA5DC7409A07DB2F9 /* ReachStateUnloaded.m */; };
+		5957C4A48674768CC464A23BCBFD032C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385D107A669EB425D229E0C97F9C554E /* Foundation.framework */; };
+		5CD27E0E909FB0855482C263547D8693 /* UIFont+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 881BC27F007DF1816F9DC237B444FFC9 /* UIFont+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ECA59CE6EE306D0B61AE83C615F5236 /* ReachStateWIFI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F42501CE9225442FFC4814FE88B1F2B /* ReachStateWIFI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6064D42C64432E1B3BFE5DE274735FB2 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DE5F38B2CBC702217E888133F8690C /* PingHelper.m */; };
+		65A51606C030E56B56EF260C4460EDF1 /* RealReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A72185391AB3A1AF3A35E373DD588D1 /* RealReachability-dummy.m */; };
+		6983DC2F6CCB0B0DA5E20530845520BD /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FFD286B5D66086778C843AE9A4AC47 /* ReachStateWIFI.m */; };
+		6E858DEFF5314DB7414BAD7168154F73 /* FSMEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5185AE754298173EC71F118B26725361 /* FSMEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F7C22494F762435610561542D0D8029 /* UIImage+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 12051579BEB9A1C82A7F79C8693625E1 /* UIImage+RYJTool.m */; };
+		735F8E1F27FF56B397FA1AF846A8E735 /* UIViewController+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BCFF8AC70C91B59BE0E05C14D4A0B /* UIViewController+RYJTool.m */; };
+		77C2729735E50600204BBB0B598AACE8 /* ReachStateWWAN.h in Headers */ = {isa = PBXBuildFile; fileRef = 32955691A085AE5AE4642CC759291434 /* ReachStateWWAN.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		79C1F0120082B14B5E17CBDED8CA0A3E /* Pods-RYJToolKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C35F18AF159DE9C806F003972B9106 /* Pods-RYJToolKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F1F49AC063DD9BEE3EAA660DCB009CE /* Pods-RYJToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E912724969788A09D3B1DF9830CC51C /* Pods-RYJToolKit_Example-dummy.m */; };
-		AA73571E78A43AEE69DA3BD67D0397AF /* RYJToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C897CEFD3C722DF9EBBF3ECB1DF14173 /* RYJToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6AA7FBC1EFA2E61984A1F9DB936C09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E9B4C7F80D84D954B895148447422C84 /* RYJToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5870FCB50EF566F07C42579BEDA70B4 /* RYJToolKit-dummy.m */; };
-		EFE40E6BCBA23AF860D167CEC1BE5F84 /* RYJLog.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3463BA2CE4B5E63D61FFDFAABA5FBD /* RYJLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2719C4B33429BC33966A0C966BDA442 /* Pods-RYJToolKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7871D2ED0D82BAF8CB685BB81CD1A98A /* Pods-RYJToolKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FBEF683365A3993C474847043FF5D56 /* RYJToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B8026F4DDA6A867DBCBB56067305B0 /* RYJToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E0C39330A67F3F00EE71AB0C9708EC /* RYJToolMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 781C5D4F6CE89FD8FEE7EECE46C63DC6 /* RYJToolMarco.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888E9E57EB669A0216097D6CD2657286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385D107A669EB425D229E0C97F9C554E /* Foundation.framework */; };
+		8A00CE66FED20A441192FEA12547767C /* RYJDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03CBD5F22A9163BE9D5D075AE58B0492 /* RYJDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E7E36F1A830FCC65E18BE8EF8408F4 /* LocalConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8FCBC443CCF450BD24F2D0BCD0A6F1 /* LocalConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C32E9111334D2E4C75567FE0F0F09A /* ReachStateUnloaded.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DE5C1BA256D87485446FA5F4AD6BD4 /* ReachStateUnloaded.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9ABB4DCE14CD33D5894F5F294322C4C2 /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F82AAA1D824D354A1EF75CD54890C /* FSMEngine.m */; };
+		9D238A20468AD6EDC5104E0AB834751A /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = F147E38867747649BBB1DCD765A67922 /* PingFoundation.m */; };
+		9DA4C8FD3C09D9E9A5927131B7C67418 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D27360F59F6D14D66E1FDD97FCA091 /* ReachStateLoading.m */; };
+		A27F3150F9BE8C525110B8B8A2D98C3E /* UIViewController+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF4F998542ED71AE1CE448385DBACA3 /* UIViewController+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FDB0DFA13A13BA566DB5815F60CA01 /* RYJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C47659D0A54C922BDAE541DC11E13AC /* RYJRouter.m */; };
+		B822C37352868D6DD78A776DB08E4E8D /* UILabel+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5328B8DBB4F4721A0A42469DC2C4D1 /* UILabel+RYJTool.m */; };
+		BBC0049D19459D049B610C73D01BB984 /* NSString+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C62823D719490ACC706FC5D8A45EFEDE /* NSString+RYJTool.m */; };
+		BC0F3D5193F389F9F0F240367C307374 /* NSArray+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF8C4FF5ED2B530D65E2184CE265A /* NSArray+RYJTool.m */; };
+		BED40AEE101D4A2BEDD714AD898D73D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385D107A669EB425D229E0C97F9C554E /* Foundation.framework */; };
+		C3A46CC74A3CC46023338F0033668443 /* Pods-RYJToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E912724969788A09D3B1DF9830CC51C /* Pods-RYJToolKit_Example-dummy.m */; };
+		C6AA7FBC1EFA2E61984A1F9DB936C09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385D107A669EB425D229E0C97F9C554E /* Foundation.framework */; };
+		C77445641419891830BA7C693A9FA649 /* RealReachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEBB7458A84B0329D2BA0FD05183A51 /* RealReachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C77C6A84BD50C34180B403648902BE46 /* UIImage+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A842DE50CF5509D17EFB4991A6E311BC /* UIImage+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C86096FEB5A2890F5E96A020E4753D11 /* RYJToolKit.pch in Sources */ = {isa = PBXBuildFile; fileRef = E14E2CEDE0C08FE84363B5D2A596E66D /* RYJToolKit.pch */; };
+		C8C1AD142B48A6984D0A74CAD4840B11 /* NSObject+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C20CE270E69EF89EED801411699F4B0F /* NSObject+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA67968E7AA824CB1A72075A62E6F83 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498E767B045F488339DD58F89898CF4 /* ReachState.m */; };
+		D2F01FC34A7774257A4CD5BAD9C290AC /* UIFont+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FAFAE659BF36A466E3A17C7A6552F /* UIFont+RYJTool.m */; };
+		D412527076D585B51D4C44FB61779586 /* ReachState.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DCE131F1F6E05C5934E271726A34B6 /* ReachState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5EF2CDE839207ABC29279C6E200C9DE /* UILabel+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEC5146FD3AA15ACA7E28235B79FB13 /* UILabel+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D78F7C74FD44B3D14AB72FA115D3077B /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8B3DA14C2D44BBCA0100E4692B7CD /* ReachStateUnReachable.m */; };
+		D7D073286E0F975346F87E8B41AC8D7E /* RealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F461E1D50D9912D5B557BC6DF65B7C2C /* RealReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5F12FFC01D19FECFC659F038ADC7FFF /* ReachStateLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 18222525C66D23F233D9B0D159C89192 /* ReachStateLoading.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E80AC4E9303AC0218919F3F0E679B4E8 /* RYJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = A0206C5CE4E59E48874C12193419452E /* RYJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8BEEF1EDEDD67CA3EAF072D0F759F14 /* NSFileManager+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8B464EA9917965A33F57896699E7E7 /* NSFileManager+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED604900C430F29E60C61556F6DF9EE4 /* NSObject+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BAF324CE244EF7A077C3E4D229F65 /* NSObject+RYJTool.m */; };
+		EF26361806A735C600EA3A1A7186567B /* PingFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8DE2DAC199557926AE2FE8E021969C /* PingFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F38D6178F61DC4FA5FC5CDA3A614B7CA /* UIButton+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B315CB600743BD0521DA04E3585F7171 /* UIButton+RYJTool.m */; };
+		F544F7D6427D026A76DA423DBA72CF72 /* RYJPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C049C575E5CE58802217DDC9F37D6D /* RYJPermission.m */; };
+		F672035317BD498877C2A49BC60ACB30 /* ReachStateUnReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DCA99B042C9A6FA90AEBAA2C05C53F /* ReachStateUnReachable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB04F978BF614896D27B88EA445473DD /* NSString+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C948A7670858B3FF92685B44FBEEF942 /* NSString+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC455161E23E9A3360A5F266BD42E4BE /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A8B29B99E13CD86B4DD0C9F277F559 /* FSMStateUtil.m */; };
+		FE6951B8078631AE53E2A44ABB75575B /* RYJDate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8070DA24730997F708E20D030507919 /* RYJDate.m */; };
+		FF85A5489A342613205A0DF8E692FC99 /* FSMStateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F928FDB0337D8A9523C93A433E5CC781 /* FSMStateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFA5D411E047C2ABF2811B32F2EC7CA2 /* RYJReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B86B9B8607730BC1ECE082A277DE6E6 /* RYJReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		15E550165A7204103816399F350E3A69 /* PBXContainerItemProxy */ = {
+		14136E041582DCE4873E022777EAABF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4D6EC861E4F06215495DE7C210AE46C;
-			remoteInfo = RYJToolKit;
+			remoteGlobalIDString = D877AA5CCB5772505261462171EF8A75;
+			remoteInfo = RealReachability;
 		};
 		77C7D773B56376F7EC7245C904284503 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,59 +93,145 @@
 			remoteGlobalIDString = 2D92241F879D20E763ACD2489954F3F5;
 			remoteInfo = "Pods-RYJToolKit_Example";
 		};
+		77FDEA6A0F1C13AFE81D9B3971EC724B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4D6EC861E4F06215495DE7C210AE46C;
+			remoteInfo = RYJToolKit;
+		};
+		B10790AFABF5FF473AEDC49E2D3B04EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D877AA5CCB5772505261462171EF8A75;
+			remoteInfo = RealReachability;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008327C4807F24E34D370B8EC4CBCFC5 /* Pods-RYJToolKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYJToolKit_Example-Info.plist"; sourceTree = "<group>"; };
-		1EA9A0F8B8F5EF2C4712E3D7F52CA69E /* RYJToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RYJToolKit-Info.plist"; sourceTree = "<group>"; };
+		00DE5F38B2CBC702217E888133F8690C /* PingHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingHelper.m; path = RealReachability/Ping/PingHelper.m; sourceTree = "<group>"; };
+		03CBD5F22A9163BE9D5D075AE58B0492 /* RYJDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RYJDate.h; sourceTree = "<group>"; };
+		0794437BE127B3FCA5DC7409A07DB2F9 /* ReachStateUnloaded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnloaded.m; path = RealReachability/FSM/ReachStateUnloaded.m; sourceTree = "<group>"; };
+		0FEBB7458A84B0329D2BA0FD05183A51 /* RealReachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealReachability-umbrella.h"; sourceTree = "<group>"; };
+		11DE5C1BA256D87485446FA5F4AD6BD4 /* ReachStateUnloaded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnloaded.h; path = RealReachability/FSM/ReachStateUnloaded.h; sourceTree = "<group>"; };
+		12051579BEB9A1C82A7F79C8693625E1 /* UIImage+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RYJTool.m"; sourceTree = "<group>"; };
+		1498E767B045F488339DD58F89898CF4 /* ReachState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachState.m; path = RealReachability/FSM/ReachState.m; sourceTree = "<group>"; };
+		14BBF8C4FF5ED2B530D65E2184CE265A /* NSArray+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RYJTool.m"; sourceTree = "<group>"; };
+		17DCE131F1F6E05C5934E271726A34B6 /* ReachState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachState.h; path = RealReachability/FSM/ReachState.h; sourceTree = "<group>"; };
+		18222525C66D23F233D9B0D159C89192 /* ReachStateLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateLoading.h; path = RealReachability/FSM/ReachStateLoading.h; sourceTree = "<group>"; };
+		1D2BCFF8AC70C91B59BE0E05C14D4A0B /* UIViewController+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RYJTool.m"; sourceTree = "<group>"; };
+		20B8026F4DDA6A867DBCBB56067305B0 /* RYJToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYJToolKit-umbrella.h"; sourceTree = "<group>"; };
+		2324849B84F302425BC47B3780C7EAD7 /* RealReachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RealReachability-Info.plist"; sourceTree = "<group>"; };
 		257CE7B05A8920FFF7CF9BB3FB5D66CB /* Pods-RYJToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYJToolKit_Tests.modulemap"; sourceTree = "<group>"; };
-		2DA22569EAA4EC5DEA9E3B09ED30F5EF /* RYJToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYJToolKit.release.xcconfig; sourceTree = "<group>"; };
-		2F4C60D10C0898D1C6D309F70B5114B9 /* Pods_RYJToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYJToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E8DE2DAC199557926AE2FE8E021969C /* PingFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingFoundation.h; path = RealReachability/Ping/PingFoundation.h; sourceTree = "<group>"; };
+		2F4C60D10C0898D1C6D309F70B5114B9 /* Pods_RYJToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYJToolKit_Example.framework; path = "Pods-RYJToolKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310ECDDA8D19754A2F6E4523D1953C9A /* RealReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealReachability-prefix.pch"; sourceTree = "<group>"; };
+		32955691A085AE5AE4642CC759291434 /* ReachStateWWAN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWWAN.h; path = RealReachability/FSM/ReachStateWWAN.h; sourceTree = "<group>"; };
 		346E259EEDFC537815E3767090953DED /* Pods-RYJToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYJToolKit_Example.modulemap"; sourceTree = "<group>"; };
+		36F0FD8852D0F1428814370D59CC0DBE /* PingHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingHelper.h; path = RealReachability/Ping/PingHelper.h; sourceTree = "<group>"; };
+		385D107A669EB425D229E0C97F9C554E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B86B9B8607730BC1ECE082A277DE6E6 /* RYJReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RYJReachability.h; sourceTree = "<group>"; };
+		3C3F82AAA1D824D354A1EF75CD54890C /* FSMEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMEngine.m; path = RealReachability/FSM/FSMEngine.m; sourceTree = "<group>"; };
+		3E5328B8DBB4F4721A0A42469DC2C4D1 /* UILabel+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RYJTool.m"; sourceTree = "<group>"; };
+		45FFD286B5D66086778C843AE9A4AC47 /* ReachStateWIFI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWIFI.m; path = RealReachability/FSM/ReachStateWIFI.m; sourceTree = "<group>"; };
+		4B8FAFAE659BF36A466E3A17C7A6552F /* UIFont+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+RYJTool.m"; sourceTree = "<group>"; };
 		4CC4D33568549B1CA1D0AEB036F9B15F /* Pods-RYJToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYJToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FE254AA0ADA6F75A11C00DB690B51FD /* RealReachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RealReachability.modulemap; sourceTree = "<group>"; };
+		5185AE754298173EC71F118B26725361 /* FSMEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMEngine.h; path = RealReachability/FSM/FSMEngine.h; sourceTree = "<group>"; };
+		558024E0FA442531F2C3963E3B9336F4 /* RYJToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYJToolKit-prefix.pch"; sourceTree = "<group>"; };
+		5C47659D0A54C922BDAE541DC11E13AC /* RYJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RYJRouter.m; sourceTree = "<group>"; };
+		62BFC38CA5093D2DEE9DF750EC660451 /* RYJToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RYJToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		646CEDDF3357A2BD249CA899A9A37D56 /* RYJToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RYJToolKit-Info.plist"; sourceTree = "<group>"; };
 		69CC3DDA0F5C633873AFB714329589DC /* Pods-RYJToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYJToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69D27360F59F6D14D66E1FDD97FCA091 /* ReachStateLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateLoading.m; path = RealReachability/FSM/ReachStateLoading.m; sourceTree = "<group>"; };
+		6A2299448B945A25A913ED05EB78FBE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6D09DB98B950C2B8F8C494495CD5D3EA /* RYJPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RYJPermission.h; sourceTree = "<group>"; };
+		6E8B464EA9917965A33F57896699E7E7 /* NSFileManager+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+RYJTool.h"; sourceTree = "<group>"; };
 		6E912724969788A09D3B1DF9830CC51C /* Pods-RYJToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYJToolKit_Example-dummy.m"; sourceTree = "<group>"; };
 		73B4FC9606198C129484E5BF99FA3D5F /* Pods-RYJToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYJToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		740766A555DBBE937900DAD4CA0FEF0B /* RYJToolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYJToolKit.debug.xcconfig; sourceTree = "<group>"; };
 		74C35F18AF159DE9C806F003972B9106 /* Pods-RYJToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYJToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		753A7AD0A7186DFF11EDB471FE3C371C /* RYJToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RYJToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		781C5D4F6CE89FD8FEE7EECE46C63DC6 /* RYJToolMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYJToolMarco.h; path = RYJToolKit/Classes/RYJToolMarco.h; sourceTree = "<group>"; };
 		7871D2ED0D82BAF8CB685BB81CD1A98A /* Pods-RYJToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYJToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		7A72185391AB3A1AF3A35E373DD588D1 /* RealReachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealReachability-dummy.m"; sourceTree = "<group>"; };
+		7C5BAF324CE244EF7A077C3E4D229F65 /* NSObject+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RYJTool.m"; sourceTree = "<group>"; };
+		7F564619BD6F4026D7544FD5C89457B3 /* NSArray+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+RYJTool.h"; sourceTree = "<group>"; };
+		7F74B37C0881B9319A3627B88E58B167 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87231FAA3F1485CB37F3DEBC49AD7D11 /* UIButton+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+RYJTool.h"; sourceTree = "<group>"; };
+		881BC27F007DF1816F9DC237B444FFC9 /* UIFont+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+RYJTool.h"; sourceTree = "<group>"; };
 		89680E6E85A3834235A0BEC0F85A69EE /* Pods-RYJToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYJToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		9B8D1FECCC4547167C181C95B47458BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D2F89EA06D711BDAE29FCC4FE244EDB /* RYJToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RYJToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A8360D427DC147842364A2CDE561DE8 /* RYJToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYJToolKit.modulemap; sourceTree = "<group>"; };
+		8E2BBF3D8B8E874AA422EEC3136347CA /* NSFileManager+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+RYJTool.m"; sourceTree = "<group>"; };
+		8FF4F998542ED71AE1CE448385DBACA3 /* UIViewController+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RYJTool.h"; sourceTree = "<group>"; };
+		95D2BB54AD0ED07D612FC372BE2B39D1 /* RealReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealReachability.framework; path = RealReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		970E9CB8B7407B824B639F9014B9ADA2 /* RYJToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYJToolKit.release.xcconfig; sourceTree = "<group>"; };
+		9CEC5146FD3AA15ACA7E28235B79FB13 /* UILabel+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+RYJTool.h"; sourceTree = "<group>"; };
+		9D2F89EA06D711BDAE29FCC4FE244EDB /* RYJToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYJToolKit.framework; path = RYJToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBF4C469EFFCC734BA689D1D0EFCBEB /* RYJToolKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYJToolKit.h; path = RYJToolKit/Classes/RYJToolKit.h; sourceTree = "<group>"; };
+		9F42501CE9225442FFC4814FE88B1F2B /* ReachStateWIFI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWIFI.h; path = RealReachability/FSM/ReachStateWIFI.h; sourceTree = "<group>"; };
+		A0206C5CE4E59E48874C12193419452E /* RYJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RYJRouter.h; sourceTree = "<group>"; };
+		A05A34F8F0D712C8188118E49C9659B5 /* ReachStateWWAN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWWAN.m; path = RealReachability/FSM/ReachStateWWAN.m; sourceTree = "<group>"; };
+		A4C049C575E5CE58802217DDC9F37D6D /* RYJPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RYJPermission.m; sourceTree = "<group>"; };
+		A51511DA0C11C9403AD365E357CB9FCC /* RealReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70387FC0FF3DF54530081236E8E4361 /* RealReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RealReachability.m; path = RealReachability/RealReachability.m; sourceTree = "<group>"; };
+		A740B49662FDF65904183ADC185FA8F5 /* RealReachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealReachability.debug.xcconfig; sourceTree = "<group>"; };
+		A842DE50CF5509D17EFB4991A6E311BC /* UIImage+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+RYJTool.h"; sourceTree = "<group>"; };
 		AC896C1D88EB70D2ADB65CE939C8D51E /* Pods-RYJToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYJToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE1E457AB0FB0507C7D0F9169D98503D /* Pods-RYJToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYJToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B5870FCB50EF566F07C42579BEDA70B4 /* RYJToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYJToolKit-dummy.m"; sourceTree = "<group>"; };
-		B8E64287456DFD346BFF13FACA206091 /* RYJToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYJToolKit-prefix.pch"; sourceTree = "<group>"; };
-		B95DB70951E5A4B80C162746444A249D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RYJToolKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		BE3E98E35A452DD0D66F8FF9E83AD64C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C897CEFD3C722DF9EBBF3ECB1DF14173 /* RYJToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYJToolKit-umbrella.h"; sourceTree = "<group>"; };
-		C90A479EA860337B4CBB975FAB2CF78B /* RYJToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYJToolKit.modulemap; sourceTree = "<group>"; };
+		AF19616516CFF38D8355509D755A6BD7 /* RYJToolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYJToolKit.debug.xcconfig; sourceTree = "<group>"; };
+		B315CB600743BD0521DA04E3585F7171 /* UIButton+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RYJTool.m"; sourceTree = "<group>"; };
+		B77FC49804946A03879D0BED77A10EBD /* RYJToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYJToolKit-dummy.m"; sourceTree = "<group>"; };
+		BBB1F5FDD1885120983D11A1CBC0280E /* RYJTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RYJTimer.m; sourceTree = "<group>"; };
+		BBB6DC065A8C9D25FE6E5FFC77300EB8 /* RealReachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealReachability.release.xcconfig; sourceTree = "<group>"; };
+		BFB8B3DA14C2D44BBCA0100E4692B7CD /* ReachStateUnReachable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnReachable.m; path = RealReachability/FSM/ReachStateUnReachable.m; sourceTree = "<group>"; };
+		C20CE270E69EF89EED801411699F4B0F /* NSObject+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+RYJTool.h"; sourceTree = "<group>"; };
+		C314C33C3B3E10AA256A85134D79853C /* LocalConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocalConnection.m; path = RealReachability/Connection/LocalConnection.m; sourceTree = "<group>"; };
+		C62823D719490ACC706FC5D8A45EFEDE /* NSString+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+RYJTool.m"; sourceTree = "<group>"; };
+		C948A7670858B3FF92685B44FBEEF942 /* NSString+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+RYJTool.h"; sourceTree = "<group>"; };
+		D5AA5A225565A8BD986CF9B4DB21F35E /* RYJTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RYJTimer.h; sourceTree = "<group>"; };
+		D7982B6F6DC4928D1845CAF69E53C910 /* RYJReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RYJReachability.m; sourceTree = "<group>"; };
 		D7D833B64BDDF3CE9DD015712C9A5AF6 /* Pods-RYJToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYJToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE8FCBC443CCF450BD24F2D0BCD0A6F1 /* LocalConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocalConnection.h; path = RealReachability/Connection/LocalConnection.h; sourceTree = "<group>"; };
+		E14E2CEDE0C08FE84363B5D2A596E66D /* RYJToolKit.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYJToolKit.pch; path = RYJToolKit/Classes/RYJToolKit.pch; sourceTree = "<group>"; };
 		E3E9F2C04C684E30C048B72847F86776 /* Pods-RYJToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYJToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E5DCA99B042C9A6FA90AEBAA2C05C53F /* ReachStateUnReachable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnReachable.h; path = RealReachability/FSM/ReachStateUnReachable.h; sourceTree = "<group>"; };
+		E8070DA24730997F708E20D030507919 /* RYJDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RYJDate.m; sourceTree = "<group>"; };
+		F147E38867747649BBB1DCD765A67922 /* PingFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingFoundation.m; path = RealReachability/Ping/PingFoundation.m; sourceTree = "<group>"; };
+		F461E1D50D9912D5B557BC6DF65B7C2C /* RealReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RealReachability.h; path = RealReachability/RealReachability.h; sourceTree = "<group>"; };
+		F4A8B29B99E13CD86B4DD0C9F277F559 /* FSMStateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMStateUtil.m; path = RealReachability/FSM/FSMStateUtil.m; sourceTree = "<group>"; };
 		F790935E6AD1C2FC2C10BCDF02721B37 /* Pods-RYJToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYJToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		FCE2ECF87D2D80EB4641EE02D55E52B5 /* Pods_RYJToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYJToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD3463BA2CE4B5E63D61FFDFAABA5FBD /* RYJLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYJLog.h; path = RYJToolKit/Classes/RYJLog.h; sourceTree = "<group>"; };
+		F928FDB0337D8A9523C93A433E5CC781 /* FSMStateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMStateUtil.h; path = RealReachability/FSM/FSMStateUtil.h; sourceTree = "<group>"; };
+		FCE2ECF87D2D80EB4641EE02D55E52B5 /* Pods_RYJToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYJToolKit_Tests.framework; path = "Pods-RYJToolKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD60355C752AC594DFACFDD5E269DB09 /* Pods-RYJToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYJToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE6E8BF4F7CA036D7987F4781EBA098C /* FSMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMDefines.h; path = RealReachability/FSM/FSMDefines.h; sourceTree = "<group>"; };
 		FF3DB66354E7412EA3D2C4DF9581E74C /* Pods-RYJToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYJToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6C545F2172609FA59ACA6FFDE7CE32C3 /* Frameworks */ = {
+		448C925AA52811A40B69D2E0B10A5B9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FAE97E08E0CC5AC529204133D4236D7 /* Foundation.framework in Frameworks */,
+				5957C4A48674768CC464A23BCBFD032C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE570BF132B685D876128EBC655F76DB /* Frameworks */ = {
+		4E87B51052AE879384C1E04FE19CE30C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C98CDE831767926EA634030DFC97E60 /* Foundation.framework in Frameworks */,
+				BED40AEE101D4A2BEDD714AD898D73D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0C7073C95CC7313D51D9D3A3B3A591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888E9E57EB669A0216097D6CD2657286 /* Foundation.framework in Frameworks */,
+				2525903B32CD4230456D3DE01AF7B34A /* RealReachability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,19 +246,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0084B8635BB352AD8BEA4A373E2282E6 /* Support Files */ = {
+		002ED3B87E5D7BE915216385A55E1E47 /* RYJDate */ = {
 			isa = PBXGroup;
 			children = (
-				C90A479EA860337B4CBB975FAB2CF78B /* RYJToolKit.modulemap */,
-				B5870FCB50EF566F07C42579BEDA70B4 /* RYJToolKit-dummy.m */,
-				1EA9A0F8B8F5EF2C4712E3D7F52CA69E /* RYJToolKit-Info.plist */,
-				B8E64287456DFD346BFF13FACA206091 /* RYJToolKit-prefix.pch */,
-				C897CEFD3C722DF9EBBF3ECB1DF14173 /* RYJToolKit-umbrella.h */,
-				740766A555DBBE937900DAD4CA0FEF0B /* RYJToolKit.debug.xcconfig */,
-				2DA22569EAA4EC5DEA9E3B09ED30F5EF /* RYJToolKit.release.xcconfig */,
+				03CBD5F22A9163BE9D5D075AE58B0492 /* RYJDate.h */,
+				E8070DA24730997F708E20D030507919 /* RYJDate.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RYJToolKit";
+			name = RYJDate;
+			path = RYJToolKit/Classes/RYJDate;
+			sourceTree = "<group>";
+		};
+		0A357A4E73CE2E6C2B9E6762E7A19AAC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				87231FAA3F1485CB37F3DEBC49AD7D11 /* UIButton+RYJTool.h */,
+				B315CB600743BD0521DA04E3585F7171 /* UIButton+RYJTool.m */,
+				881BC27F007DF1816F9DC237B444FFC9 /* UIFont+RYJTool.h */,
+				4B8FAFAE659BF36A466E3A17C7A6552F /* UIFont+RYJTool.m */,
+				A842DE50CF5509D17EFB4991A6E311BC /* UIImage+RYJTool.h */,
+				12051579BEB9A1C82A7F79C8693625E1 /* UIImage+RYJTool.m */,
+				9CEC5146FD3AA15ACA7E28235B79FB13 /* UILabel+RYJTool.h */,
+				3E5328B8DBB4F4721A0A42469DC2C4D1 /* UILabel+RYJTool.m */,
+				8FF4F998542ED71AE1CE448385DBACA3 /* UIViewController+RYJTool.h */,
+				1D2BCFF8AC70C91B59BE0E05C14D4A0B /* UIViewController+RYJTool.m */,
+			);
+			name = UIKit;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1E35E27E37ECA7B58B2E5E22A1EF9D13 /* RYJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				A0206C5CE4E59E48874C12193419452E /* RYJRouter.h */,
+				5C47659D0A54C922BDAE541DC11E13AC /* RYJRouter.m */,
+			);
+			name = RYJRouter;
+			path = RYJToolKit/Classes/RYJRouter;
 			sourceTree = "<group>";
 		};
 		20C50C3B1017375799BC109EB71C025D /* Pods-RYJToolKit_Example */ = {
@@ -134,14 +301,33 @@
 			path = "Target Support Files/Pods-RYJToolKit_Example";
 			sourceTree = "<group>";
 		};
-		4B5F71C66D29A7559B5D7A753BAF8CCD /* Pod */ = {
+		3883BD1EB7AF7EB376768F185501CE9B /* Ping */ = {
 			isa = PBXGroup;
 			children = (
-				9B8D1FECCC4547167C181C95B47458BE /* LICENSE */,
-				BE3E98E35A452DD0D66F8FF9E83AD64C /* README.md */,
-				753A7AD0A7186DFF11EDB471FE3C371C /* RYJToolKit.podspec */,
+				2E8DE2DAC199557926AE2FE8E021969C /* PingFoundation.h */,
+				F147E38867747649BBB1DCD765A67922 /* PingFoundation.m */,
+				36F0FD8852D0F1428814370D59CC0DBE /* PingHelper.h */,
+				00DE5F38B2CBC702217E888133F8690C /* PingHelper.m */,
+			);
+			name = Ping;
+			sourceTree = "<group>";
+		};
+		5A261D43CD203C4CC3C5FB666134854F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6A2299448B945A25A913ED05EB78FBE6 /* LICENSE */,
+				7F74B37C0881B9319A3627B88E58B167 /* README.md */,
+				62BFC38CA5093D2DEE9DF750EC660451 /* RYJToolKit.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E21A7EC99E09D73FC120F573017E930 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE4775745BE4E9C688D9B63F5582E7 /* RealReachability */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		65C62FBB966F42BC592F50C5B0024A9A /* Pods-RYJToolKit_Tests */ = {
@@ -160,6 +346,32 @@
 			path = "Target Support Files/Pods-RYJToolKit_Tests";
 			sourceTree = "<group>";
 		};
+		737FDEBEC43B0245ADBE0514DD9175B3 /* RYJNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				3B86B9B8607730BC1ECE082A277DE6E6 /* RYJReachability.h */,
+				D7982B6F6DC4928D1845CAF69E53C910 /* RYJReachability.m */,
+			);
+			name = RYJNetwork;
+			path = RYJToolKit/Classes/RYJNetwork;
+			sourceTree = "<group>";
+		};
+		773D88A744DBA718644A77F3EF27BE7A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7F564619BD6F4026D7544FD5C89457B3 /* NSArray+RYJTool.h */,
+				14BBF8C4FF5ED2B530D65E2184CE265A /* NSArray+RYJTool.m */,
+				6E8B464EA9917965A33F57896699E7E7 /* NSFileManager+RYJTool.h */,
+				8E2BBF3D8B8E874AA422EEC3136347CA /* NSFileManager+RYJTool.m */,
+				C20CE270E69EF89EED801411699F4B0F /* NSObject+RYJTool.h */,
+				7C5BAF324CE244EF7A077C3E4D229F65 /* NSObject+RYJTool.m */,
+				C948A7670858B3FF92685B44FBEEF942 /* NSString+RYJTool.h */,
+				C62823D719490ACC706FC5D8A45EFEDE /* NSString+RYJTool.m */,
+			);
+			name = Foundation;
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		981C387F14FD1BA8C7A54C68283E3141 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,72 +381,180 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		98F5DD60026A88E9DB9110A2F1A00DF6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				4FE254AA0ADA6F75A11C00DB690B51FD /* RealReachability.modulemap */,
+				7A72185391AB3A1AF3A35E373DD588D1 /* RealReachability-dummy.m */,
+				2324849B84F302425BC47B3780C7EAD7 /* RealReachability-Info.plist */,
+				310ECDDA8D19754A2F6E4523D1953C9A /* RealReachability-prefix.pch */,
+				0FEBB7458A84B0329D2BA0FD05183A51 /* RealReachability-umbrella.h */,
+				A740B49662FDF65904183ADC185FA8F5 /* RealReachability.debug.xcconfig */,
+				BBB6DC065A8C9D25FE6E5FFC77300EB8 /* RealReachability.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/RealReachability";
 			sourceTree = "<group>";
 		};
-		C098A7F04F9F438FDD7D1C9ABF74D06F /* RYJToolKit */ = {
+		9C1A8D4CAE19F7C321FCACE681FA661E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B95DB70951E5A4B80C162746444A249D /* ReplaceMe.m */,
-				FD3463BA2CE4B5E63D61FFDFAABA5FBD /* RYJLog.h */,
-				4B5F71C66D29A7559B5D7A753BAF8CCD /* Pod */,
-				0084B8635BB352AD8BEA4A373E2282E6 /* Support Files */,
+				BFC91E7401AEDD03E9E554E14F9F19AD /* RYJToolKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A0EE4775745BE4E9C688D9B63F5582E7 /* RealReachability */ = {
+			isa = PBXGroup;
+			children = (
+				FE6E8BF4F7CA036D7987F4781EBA098C /* FSMDefines.h */,
+				5185AE754298173EC71F118B26725361 /* FSMEngine.h */,
+				3C3F82AAA1D824D354A1EF75CD54890C /* FSMEngine.m */,
+				F928FDB0337D8A9523C93A433E5CC781 /* FSMStateUtil.h */,
+				F4A8B29B99E13CD86B4DD0C9F277F559 /* FSMStateUtil.m */,
+				17DCE131F1F6E05C5934E271726A34B6 /* ReachState.h */,
+				1498E767B045F488339DD58F89898CF4 /* ReachState.m */,
+				18222525C66D23F233D9B0D159C89192 /* ReachStateLoading.h */,
+				69D27360F59F6D14D66E1FDD97FCA091 /* ReachStateLoading.m */,
+				11DE5C1BA256D87485446FA5F4AD6BD4 /* ReachStateUnloaded.h */,
+				0794437BE127B3FCA5DC7409A07DB2F9 /* ReachStateUnloaded.m */,
+				E5DCA99B042C9A6FA90AEBAA2C05C53F /* ReachStateUnReachable.h */,
+				BFB8B3DA14C2D44BBCA0100E4692B7CD /* ReachStateUnReachable.m */,
+				9F42501CE9225442FFC4814FE88B1F2B /* ReachStateWIFI.h */,
+				45FFD286B5D66086778C843AE9A4AC47 /* ReachStateWIFI.m */,
+				32955691A085AE5AE4642CC759291434 /* ReachStateWWAN.h */,
+				A05A34F8F0D712C8188118E49C9659B5 /* ReachStateWWAN.m */,
+				F461E1D50D9912D5B557BC6DF65B7C2C /* RealReachability.h */,
+				A70387FC0FF3DF54530081236E8E4361 /* RealReachability.m */,
+				CBDEA2B8ADB3C28BE41AF9F8D9E65597 /* Connection */,
+				3883BD1EB7AF7EB376768F185501CE9B /* Ping */,
+				98F5DD60026A88E9DB9110A2F1A00DF6 /* Support Files */,
+			);
+			name = RealReachability;
+			path = RealReachability;
+			sourceTree = "<group>";
+		};
+		A923BA2B3E4DCB4337236602FAC4407A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A8360D427DC147842364A2CDE561DE8 /* RYJToolKit.modulemap */,
+				B77FC49804946A03879D0BED77A10EBD /* RYJToolKit-dummy.m */,
+				646CEDDF3357A2BD249CA899A9A37D56 /* RYJToolKit-Info.plist */,
+				558024E0FA442531F2C3963E3B9336F4 /* RYJToolKit-prefix.pch */,
+				20B8026F4DDA6A867DBCBB56067305B0 /* RYJToolKit-umbrella.h */,
+				AF19616516CFF38D8355509D755A6BD7 /* RYJToolKit.debug.xcconfig */,
+				970E9CB8B7407B824B639F9014B9ADA2 /* RYJToolKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RYJToolKit";
+			sourceTree = "<group>";
+		};
+		BF330490A870DDA174C29EBA37919925 /* RYJPermission */ = {
+			isa = PBXGroup;
+			children = (
+				6D09DB98B950C2B8F8C494495CD5D3EA /* RYJPermission.h */,
+				A4C049C575E5CE58802217DDC9F37D6D /* RYJPermission.m */,
+			);
+			name = RYJPermission;
+			path = RYJToolKit/Classes/RYJPermission;
+			sourceTree = "<group>";
+		};
+		BFC91E7401AEDD03E9E554E14F9F19AD /* RYJToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF4C469EFFCC734BA689D1D0EFCBEB /* RYJToolKit.h */,
+				E14E2CEDE0C08FE84363B5D2A596E66D /* RYJToolKit.pch */,
+				781C5D4F6CE89FD8FEE7EECE46C63DC6 /* RYJToolMarco.h */,
+				5A261D43CD203C4CC3C5FB666134854F /* Pod */,
+				002ED3B87E5D7BE915216385A55E1E47 /* RYJDate */,
+				737FDEBEC43B0245ADBE0514DD9175B3 /* RYJNetwork */,
+				BF330490A870DDA174C29EBA37919925 /* RYJPermission */,
+				1E35E27E37ECA7B58B2E5E22A1EF9D13 /* RYJRouter */,
+				FDD0FD2BA8ECD7C2321A47DB6B50405A /* RYJTimer */,
+				D18CDBBAC6AB13D1E67A1BFBD3B2E462 /* RYJToolCategory */,
+				A923BA2B3E4DCB4337236602FAC4407A /* Support Files */,
 			);
 			name = RYJToolKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		C1778743B46C46FC175AFC4B566D7D2D /* Development Pods */ = {
+		CBDEA2B8ADB3C28BE41AF9F8D9E65597 /* Connection */ = {
 			isa = PBXGroup;
 			children = (
-				C098A7F04F9F438FDD7D1C9ABF74D06F /* RYJToolKit */,
+				DE8FCBC443CCF450BD24F2D0BCD0A6F1 /* LocalConnection.h */,
+				C314C33C3B3E10AA256A85134D79853C /* LocalConnection.m */,
 			);
-			name = "Development Pods";
+			name = Connection;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C1778743B46C46FC175AFC4B566D7D2D /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E6ED5A5E470F8E7BABE9CF8CD61DB978 /* Products */,
+				9C1A8D4CAE19F7C321FCACE681FA661E /* Development Pods */,
+				D9D79CE2D8938C17880EF465806F81AE /* Frameworks */,
+				5E21A7EC99E09D73FC120F573017E930 /* Pods */,
+				F84E23C8072CC752846B7B2AEB1554F2 /* Products */,
 				981C387F14FD1BA8C7A54C68283E3141 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D18CDBBAC6AB13D1E67A1BFBD3B2E462 /* RYJToolCategory */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				773D88A744DBA718644A77F3EF27BE7A /* Foundation */,
+				0A357A4E73CE2E6C2B9E6762E7A19AAC /* UIKit */,
+			);
+			name = RYJToolCategory;
+			path = RYJToolKit/Classes/RYJToolCategory;
+			sourceTree = "<group>";
+		};
+		D9D79CE2D8938C17880EF465806F81AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51511DA0C11C9403AD365E357CB9FCC /* RealReachability.framework */,
+				F655FDFB4B780714EEA3DEFBA23F699D /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6ED5A5E470F8E7BABE9CF8CD61DB978 /* Products */ = {
+		F655FDFB4B780714EEA3DEFBA23F699D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				385D107A669EB425D229E0C97F9C554E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F84E23C8072CC752846B7B2AEB1554F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				2F4C60D10C0898D1C6D309F70B5114B9 /* Pods_RYJToolKit_Example.framework */,
 				FCE2ECF87D2D80EB4641EE02D55E52B5 /* Pods_RYJToolKit_Tests.framework */,
+				95D2BB54AD0ED07D612FC372BE2B39D1 /* RealReachability.framework */,
 				9D2F89EA06D711BDAE29FCC4FE244EDB /* RYJToolKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FDD0FD2BA8ECD7C2321A47DB6B50405A /* RYJTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D5AA5A225565A8BD986CF9B4DB21F35E /* RYJTimer.h */,
+				BBB1F5FDD1885120983D11A1CBC0280E /* RYJTimer.m */,
+			);
+			name = RYJTimer;
+			path = RYJToolKit/Classes/RYJTimer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1127A24955A3FE4C2A807D1702328B62 /* Headers */ = {
+		42F94D77511C72A95C79F644DC8F9169 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE40E6BCBA23AF860D167CEC1BE5F84 /* RYJLog.h in Headers */,
-				AA73571E78A43AEE69DA3BD67D0397AF /* RYJToolKit-umbrella.h in Headers */,
+				1EE76E2B6232C62400F89580B3FDF957 /* Pods-RYJToolKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,11 +566,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A364E523A43055160BC64DAC356BB016 /* Headers */ = {
+		ADB9D4AD4CBF7BCF5B2B7F5EF835F30D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2719C4B33429BC33966A0C966BDA442 /* Pods-RYJToolKit_Example-umbrella.h in Headers */,
+				39D59BD96BCAF48200FF6DF650CAA97C /* FSMDefines.h in Headers */,
+				6E858DEFF5314DB7414BAD7168154F73 /* FSMEngine.h in Headers */,
+				FF85A5489A342613205A0DF8E692FC99 /* FSMStateUtil.h in Headers */,
+				94E7E36F1A830FCC65E18BE8EF8408F4 /* LocalConnection.h in Headers */,
+				EF26361806A735C600EA3A1A7186567B /* PingFoundation.h in Headers */,
+				43078A91D288D242A10DE05DF1767A70 /* PingHelper.h in Headers */,
+				D412527076D585B51D4C44FB61779586 /* ReachState.h in Headers */,
+				E5F12FFC01D19FECFC659F038ADC7FFF /* ReachStateLoading.h in Headers */,
+				95C32E9111334D2E4C75567FE0F0F09A /* ReachStateUnloaded.h in Headers */,
+				F672035317BD498877C2A49BC60ACB30 /* ReachStateUnReachable.h in Headers */,
+				5ECA59CE6EE306D0B61AE83C615F5236 /* ReachStateWIFI.h in Headers */,
+				77C2729735E50600204BBB0B598AACE8 /* ReachStateWWAN.h in Headers */,
+				C77445641419891830BA7C693A9FA649 /* RealReachability-umbrella.h in Headers */,
+				D7D073286E0F975346F87E8B41AC8D7E /* RealReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5067B687F581EB29CEF9A820341B55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AD08856C30DD113621A59A421644A0 /* NSArray+RYJTool.h in Headers */,
+				E8BEEF1EDEDD67CA3EAF072D0F759F14 /* NSFileManager+RYJTool.h in Headers */,
+				C8C1AD142B48A6984D0A74CAD4840B11 /* NSObject+RYJTool.h in Headers */,
+				FB04F978BF614896D27B88EA445473DD /* NSString+RYJTool.h in Headers */,
+				8A00CE66FED20A441192FEA12547767C /* RYJDate.h in Headers */,
+				0563D76CC034A6687AA23BD7EF724330 /* RYJPermission.h in Headers */,
+				FFA5D411E047C2ABF2811B32F2EC7CA2 /* RYJReachability.h in Headers */,
+				E80AC4E9303AC0218919F3F0E679B4E8 /* RYJRouter.h in Headers */,
+				34D839DD189F4E8A2EF890BE551DDCCC /* RYJTimer.h in Headers */,
+				7FBEF683365A3993C474847043FF5D56 /* RYJToolKit-umbrella.h in Headers */,
+				3B4B9292ACA640D720F43A8954D32DF8 /* RYJToolKit.h in Headers */,
+				82E0C39330A67F3F00EE71AB0C9708EC /* RYJToolMarco.h in Headers */,
+				18BE4343DA1E73F24CB898316A73DC26 /* UIButton+RYJTool.h in Headers */,
+				5CD27E0E909FB0855482C263547D8693 /* UIFont+RYJTool.h in Headers */,
+				C77C6A84BD50C34180B403648902BE46 /* UIImage+RYJTool.h in Headers */,
+				D5EF2CDE839207ABC29279C6E200C9DE /* UILabel+RYJTool.h in Headers */,
+				A27F3150F9BE8C525110B8B8A2D98C3E /* UIViewController+RYJTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,17 +635,18 @@
 		};
 		2D92241F879D20E763ACD2489954F3F5 /* Pods-RYJToolKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB2DD27F518DFD1EABFF4EDCE6E306CB /* Build configuration list for PBXNativeTarget "Pods-RYJToolKit_Example" */;
+			buildConfigurationList = 81B086E7D4F0AAA7C511618BAD90E805 /* Build configuration list for PBXNativeTarget "Pods-RYJToolKit_Example" */;
 			buildPhases = (
-				A364E523A43055160BC64DAC356BB016 /* Headers */,
-				41B18E3C2169277EB66288D6D8DA784B /* Sources */,
-				6C545F2172609FA59ACA6FFDE7CE32C3 /* Frameworks */,
-				3AF744760D4742DBBEEB81EE308C10CD /* Resources */,
+				42F94D77511C72A95C79F644DC8F9169 /* Headers */,
+				15260A06EB367062C0787298E975DAC1 /* Sources */,
+				448C925AA52811A40B69D2E0B10A5B9E /* Frameworks */,
+				24AAD9634BED32CA0571D3A10F743E80 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				37365DA3D21AFA043FCA0D522112A028 /* PBXTargetDependency */,
+				B5EB031DBB1855967C26D54F22F03B74 /* PBXTargetDependency */,
+				8A5206BEA3F858D4E8A23E8F7561B634 /* PBXTargetDependency */,
 			);
 			name = "Pods-RYJToolKit_Example";
 			productName = "Pods-RYJToolKit_Example";
@@ -297,20 +655,39 @@
 		};
 		B4D6EC861E4F06215495DE7C210AE46C /* RYJToolKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DCE40E8AE77BEF0455E39EAE3E2B199 /* Build configuration list for PBXNativeTarget "RYJToolKit" */;
+			buildConfigurationList = 553A85D6B93949EE4D9E3A631EA793E6 /* Build configuration list for PBXNativeTarget "RYJToolKit" */;
 			buildPhases = (
-				1127A24955A3FE4C2A807D1702328B62 /* Headers */,
-				649575F192B18C7703000860EB56EF66 /* Sources */,
-				CE570BF132B685D876128EBC655F76DB /* Frameworks */,
-				848C8D244C8BED9415C31E8E70DC83E8 /* Resources */,
+				DC5067B687F581EB29CEF9A820341B55 /* Headers */,
+				84C81CBD61CDF28FB71A4BD60B26273D /* Sources */,
+				5C0C7073C95CC7313D51D9D3A3B3A591 /* Frameworks */,
+				F3F5A2A1FDD3FA669491D34AED11BB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2095FEEDDD42118CEC437D239DC46E /* PBXTargetDependency */,
+			);
+			name = RYJToolKit;
+			productName = RYJToolKit;
+			productReference = 9D2F89EA06D711BDAE29FCC4FE244EDB /* RYJToolKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D877AA5CCB5772505261462171EF8A75 /* RealReachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E64DFE8BAF95D5A886B12F96681DA54 /* Build configuration list for PBXNativeTarget "RealReachability" */;
+			buildPhases = (
+				ADB9D4AD4CBF7BCF5B2B7F5EF835F30D /* Headers */,
+				E68409BA37745562F3382AF660268320 /* Sources */,
+				4E87B51052AE879384C1E04FE19CE30C /* Frameworks */,
+				E0497647F22BE9BDDBE2873EA48E4E23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RYJToolKit;
-			productName = RYJToolKit;
-			productReference = 9D2F89EA06D711BDAE29FCC4FE244EDB /* RYJToolKit.framework */;
+			name = RealReachability;
+			productName = RealReachability;
+			productReference = 95D2BB54AD0ED07D612FC372BE2B39D1 /* RealReachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -331,26 +708,20 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E6ED5A5E470F8E7BABE9CF8CD61DB978 /* Products */;
+			productRefGroup = F84E23C8072CC752846B7B2AEB1554F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2D92241F879D20E763ACD2489954F3F5 /* Pods-RYJToolKit_Example */,
 				269CB590D8E85CFB87AC4245A02F4278 /* Pods-RYJToolKit_Tests */,
+				D877AA5CCB5772505261462171EF8A75 /* RealReachability */,
 				B4D6EC861E4F06215495DE7C210AE46C /* RYJToolKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3AF744760D4742DBBEEB81EE308C10CD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		848C8D244C8BED9415C31E8E70DC83E8 /* Resources */ = {
+		24AAD9634BED32CA0571D3A10F743E80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,14 +735,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0497647F22BE9BDDBE2873EA48E4E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F5A2A1FDD3FA669491D34AED11BB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41B18E3C2169277EB66288D6D8DA784B /* Sources */ = {
+		15260A06EB367062C0787298E975DAC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1F49AC063DD9BEE3EAA660DCB009CE /* Pods-RYJToolKit_Example-dummy.m in Sources */,
+				C3A46CC74A3CC46023338F0033668443 /* Pods-RYJToolKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,23 +768,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		649575F192B18C7703000860EB56EF66 /* Sources */ = {
+		84C81CBD61CDF28FB71A4BD60B26273D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3F3E9DC1A9E18BCDB9EA1137694882 /* ReplaceMe.m in Sources */,
-				E9B4C7F80D84D954B895148447422C84 /* RYJToolKit-dummy.m in Sources */,
+				BC0F3D5193F389F9F0F240367C307374 /* NSArray+RYJTool.m in Sources */,
+				1C4EB366F850AE590C95E895C03E5320 /* NSFileManager+RYJTool.m in Sources */,
+				ED604900C430F29E60C61556F6DF9EE4 /* NSObject+RYJTool.m in Sources */,
+				BBC0049D19459D049B610C73D01BB984 /* NSString+RYJTool.m in Sources */,
+				FE6951B8078631AE53E2A44ABB75575B /* RYJDate.m in Sources */,
+				F544F7D6427D026A76DA423DBA72CF72 /* RYJPermission.m in Sources */,
+				485F39C64E56475365B731BDC403E8D0 /* RYJReachability.m in Sources */,
+				B7FDB0DFA13A13BA566DB5815F60CA01 /* RYJRouter.m in Sources */,
+				4B8F82C6CE7EDF087E873392F81D4458 /* RYJTimer.m in Sources */,
+				37EB78784D2A0FA0BC733B5F9F78B548 /* RYJToolKit-dummy.m in Sources */,
+				C86096FEB5A2890F5E96A020E4753D11 /* RYJToolKit.pch in Sources */,
+				F38D6178F61DC4FA5FC5CDA3A614B7CA /* UIButton+RYJTool.m in Sources */,
+				D2F01FC34A7774257A4CD5BAD9C290AC /* UIFont+RYJTool.m in Sources */,
+				6F7C22494F762435610561542D0D8029 /* UIImage+RYJTool.m in Sources */,
+				B822C37352868D6DD78A776DB08E4E8D /* UILabel+RYJTool.m in Sources */,
+				735F8E1F27FF56B397FA1AF846A8E735 /* UIViewController+RYJTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68409BA37745562F3382AF660268320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABB4DCE14CD33D5894F5F294322C4C2 /* FSMEngine.m in Sources */,
+				FC455161E23E9A3360A5F266BD42E4BE /* FSMStateUtil.m in Sources */,
+				1FC5F4E7898EAE1F6D7A0BDDC7800787 /* LocalConnection.m in Sources */,
+				9D238A20468AD6EDC5104E0AB834751A /* PingFoundation.m in Sources */,
+				6064D42C64432E1B3BFE5DE274735FB2 /* PingHelper.m in Sources */,
+				CEA67968E7AA824CB1A72075A62E6F83 /* ReachState.m in Sources */,
+				9DA4C8FD3C09D9E9A5927131B7C67418 /* ReachStateLoading.m in Sources */,
+				52EF77EBDDDF1A152483A2C9E2571204 /* ReachStateUnloaded.m in Sources */,
+				D78F7C74FD44B3D14AB72FA115D3077B /* ReachStateUnReachable.m in Sources */,
+				6983DC2F6CCB0B0DA5E20530845520BD /* ReachStateWIFI.m in Sources */,
+				0006C089DB3D4D1E0CCF82FAB8FAC61B /* ReachStateWWAN.m in Sources */,
+				65A51606C030E56B56EF260C4460EDF1 /* RealReachability-dummy.m in Sources */,
+				49037484D925E85D669845054FA4ECAE /* RealReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		37365DA3D21AFA043FCA0D522112A028 /* PBXTargetDependency */ = {
+		8A5206BEA3F858D4E8A23E8F7561B634 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RYJToolKit;
-			target = B4D6EC861E4F06215495DE7C210AE46C /* RYJToolKit */;
-			targetProxy = 15E550165A7204103816399F350E3A69 /* PBXContainerItemProxy */;
+			name = RealReachability;
+			target = D877AA5CCB5772505261462171EF8A75 /* RealReachability */;
+			targetProxy = B10790AFABF5FF473AEDC49E2D3B04EF /* PBXContainerItemProxy */;
 		};
 		A9DE8071DDDBAB72F8A1360A7149D9CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -407,42 +826,21 @@
 			target = 2D92241F879D20E763ACD2489954F3F5 /* Pods-RYJToolKit_Example */;
 			targetProxy = 77C7D773B56376F7EC7245C904284503 /* PBXContainerItemProxy */;
 		};
+		B5EB031DBB1855967C26D54F22F03B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RYJToolKit;
+			target = B4D6EC861E4F06215495DE7C210AE46C /* RYJToolKit */;
+			targetProxy = 77FDEA6A0F1C13AFE81D9B3971EC724B /* PBXContainerItemProxy */;
+		};
+		FB2095FEEDDD42118CEC437D239DC46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealReachability;
+			target = D877AA5CCB5772505261462171EF8A75 /* RealReachability */;
+			targetProxy = 14136E041582DCE4873E022777EAABF4 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B7B37AFDE2B29522E6033F5BA978C07 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69CC3DDA0F5C633873AFB714329589DC /* Pods-RYJToolKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RYJToolKit_Example/Pods-RYJToolKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RYJToolKit_Example/Pods-RYJToolKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1F59BC441D79C692C6ADC2D4526755C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73B4FC9606198C129484E5BF99FA3D5F /* Pods-RYJToolKit_Tests.release.xcconfig */;
@@ -530,15 +928,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		6451093056920EB8EF8B041D6310F74F /* Debug */ = {
+		5DBA0982CAAA6448125E2B433B250657 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 740766A555DBBE937900DAD4CA0FEF0B /* RYJToolKit.debug.xcconfig */;
+			baseConfigurationReference = BBB6DC065A8C9D25FE6E5FFC77300EB8 /* RealReachability.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -549,23 +948,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RYJToolKit/RYJToolKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RYJToolKit/RYJToolKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RealReachability/RealReachability-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RYJToolKit/RYJToolKit.modulemap";
-				PRODUCT_MODULE_NAME = RYJToolKit;
-				PRODUCT_NAME = RYJToolKit;
+				MODULEMAP_FILE = "Target Support Files/RealReachability/RealReachability.modulemap";
+				PRODUCT_MODULE_NAME = RealReachability;
+				PRODUCT_NAME = RealReachability;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		6B40BC8DBBE7C463579055C44031F609 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -664,9 +1064,42 @@
 			};
 			name = Debug;
 		};
-		D76A6D2AAC7B6A586D84B23A4A02806D /* Release */ = {
+		A5ED157447D1DDC452A57D6911BE7E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DA22569EAA4EC5DEA9E3B09ED30F5EF /* RYJToolKit.release.xcconfig */;
+			baseConfigurationReference = 69CC3DDA0F5C633873AFB714329589DC /* Pods-RYJToolKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYJToolKit_Example/Pods-RYJToolKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYJToolKit_Example/Pods-RYJToolKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B184DC30C4D7036B10DFA1116E185FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF19616516CFF38D8355509D755A6BD7 /* RYJToolKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -690,13 +1123,43 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		FF7E9603188B66D585EC951BE8BDF5CC /* Release */ = {
+		D4781142418EDD1447C504619E84AC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A740B49662FDF65904183ADC185FA8F5 /* RealReachability.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RealReachability/RealReachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RealReachability/RealReachability.modulemap";
+				PRODUCT_MODULE_NAME = RealReachability;
+				PRODUCT_NAME = RealReachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6919263E3E05141CA50B96021BD3323 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE1E457AB0FB0507C7D0F9169D98503D /* Pods-RYJToolKit_Example.release.xcconfig */;
 			buildSettings = {
@@ -730,9 +1193,50 @@
 			};
 			name = Release;
 		};
+		FBD21309E50C03D84F825961FAC240EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970E9CB8B7407B824B639F9014B9ADA2 /* RYJToolKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RYJToolKit/RYJToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYJToolKit/RYJToolKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RYJToolKit/RYJToolKit.modulemap";
+				PRODUCT_MODULE_NAME = RYJToolKit;
+				PRODUCT_NAME = RYJToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E64DFE8BAF95D5A886B12F96681DA54 /* Build configuration list for PBXNativeTarget "RealReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4781142418EDD1447C504619E84AC3C /* Debug */,
+				5DBA0982CAAA6448125E2B433B250657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -742,20 +1246,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DCE40E8AE77BEF0455E39EAE3E2B199 /* Build configuration list for PBXNativeTarget "RYJToolKit" */ = {
+		553A85D6B93949EE4D9E3A631EA793E6 /* Build configuration list for PBXNativeTarget "RYJToolKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6451093056920EB8EF8B041D6310F74F /* Debug */,
-				D76A6D2AAC7B6A586D84B23A4A02806D /* Release */,
+				B184DC30C4D7036B10DFA1116E185FFA /* Debug */,
+				FBD21309E50C03D84F825961FAC240EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB2DD27F518DFD1EABFF4EDCE6E306CB /* Build configuration list for PBXNativeTarget "Pods-RYJToolKit_Example" */ = {
+		81B086E7D4F0AAA7C511618BAD90E805 /* Build configuration list for PBXNativeTarget "Pods-RYJToolKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B7B37AFDE2B29522E6033F5BA978C07 /* Debug */,
-				FF7E9603188B66D585EC951BE8BDF5CC /* Release */,
+				A5ED157447D1DDC452A57D6911BE7E4E /* Debug */,
+				E6919263E3E05141CA50B96021BD3323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

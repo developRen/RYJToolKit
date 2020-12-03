@@ -303,10 +303,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RYJToolKit_Example/Pods-RYJToolKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RYJToolKit/RYJToolKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RealReachability/RealReachability.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RYJToolKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealReachability.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
