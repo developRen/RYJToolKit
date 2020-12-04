@@ -1,6 +1,6 @@
 {
   "name": "RYJToolKit",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,15 @@
   },
   "source": {
     "git": "https://github.com/developRen/RYJToolKit.git",
-    "tag": "0.3.1"
+    "tag": "0.3.3"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": [
+    "RYJToolKit/Classes/RYJToolKit.h",
+    "RYJToolKit/Classes/RYJToolMarco.h"
+  ],
   "subspecs": [
     {
       "name": "RYJDate",
@@ -57,6 +61,11 @@
         },
         {
           "name": "UIKit",
+          "dependencies": {
+            "RYJToolKit/RYJToolCategory/Foundation": [
+
+            ]
+          },
           "source_files": [
             "RYJToolKit/Classes/RYJToolCategory/UIKit/UIImage+RYJTool.{h,m}",
             "RYJToolKit/Classes/RYJToolCategory/UIKit/UIButton+RYJTool.{h,m}",
