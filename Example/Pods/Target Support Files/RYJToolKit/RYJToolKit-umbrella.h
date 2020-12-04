@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "RYJToolKit.h"
 #import "RYJDate.h"
 #import "RYJReachability.h"
 #import "RYJPermission.h"
@@ -20,9 +19,9 @@
 #import "NSFileManager+RYJTool.h"
 #import "NSObject+RYJTool.h"
 #import "NSString+RYJTool.h"
+#import "UIImage+RYJTool.h"
 #import "UIButton+RYJTool.h"
 #import "UIFont+RYJTool.h"
-#import "UIImage+RYJTool.h"
 #import "UILabel+RYJTool.h"
 #import "UIViewController+RYJTool.h"
 

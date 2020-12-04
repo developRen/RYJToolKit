@@ -17,7 +17,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RYJToolKit/Classes/RYJToolKit.h",
   "subspecs": [
     {
       "name": "RYJDate",
@@ -49,11 +48,22 @@
       "subspecs": [
         {
           "name": "Foundation",
-          "source_files": "RYJToolKit/Classes/RYJToolCategory/Foundation/**/*"
+          "source_files": [
+            "RYJToolKit/Classes/RYJToolCategory/Foundation/NSArray+RYJTool.{h,m}",
+            "RYJToolKit/Classes/RYJToolCategory/Foundation/NSFileManager+RYJTool.{h,m}",
+            "RYJToolKit/Classes/RYJToolCategory/Foundation/NSObject+RYJTool.{h,m}",
+            "RYJToolKit/Classes/RYJToolCategory/Foundation/NSString+RYJTool.{h,m}"
+          ]
         },
         {
           "name": "UIKit",
-          "source_files": "RYJToolKit/Classes/RYJToolCategory/UIKit/**/*"
+          "source_files": [
+            "RYJToolKit/Classes/RYJToolCategory/UIKit/UIImage+RYJTool.{h,m}",
+            "RYJToolKit/Classes/RYJToolCategory/UIKit/UIButton+RYJTool.{h,m}",
+            "RYJToolKit/Classes/RYJToolCategory/UIKit/UIFont+RYJTool.{h,m}",
+            "RYJToolKit/Classes/RYJToolCategory/UIKit/UILabel+RYJTool.{h,m}",
+            "RYJToolKit/Classes/RYJToolCategory/UIKit/UIViewController+RYJTool.{h,m}"
+          ]
         }
       ]
     }

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   
 #  s.prefix_header_file = "RYJToolKit/Classes/RYJToolKit.pch"
-  s.source_files = 'RYJToolKit/Classes/RYJToolKit.h'
+#  s.source_files = 'RYJToolKit/Classes/RYJToolKit.h'
 #                   'RYJToolKit/Classes/RYJToolMarco.h'
                    
   s.subspec 'RYJDate' do |ss|
@@ -45,11 +45,18 @@ Pod::Spec.new do |s|
   s.subspec 'RYJToolCategory' do |ss|
 
        ss.subspec 'Foundation' do |ss|
-            ss.source_files = 'RYJToolKit/Classes/RYJToolCategory/Foundation/**/*'
+            ss.source_files = 'RYJToolKit/Classes/RYJToolCategory/Foundation/NSArray+RYJTool.{h,m}',
+            'RYJToolKit/Classes/RYJToolCategory/Foundation/NSFileManager+RYJTool.{h,m}',
+            'RYJToolKit/Classes/RYJToolCategory/Foundation/NSObject+RYJTool.{h,m}',
+            'RYJToolKit/Classes/RYJToolCategory/Foundation/NSString+RYJTool.{h,m}'
        end
 
        ss.subspec 'UIKit' do |ss|
-            ss.source_files = 'RYJToolKit/Classes/RYJToolCategory/UIKit/**/*'
+            ss.source_files = 'RYJToolKit/Classes/RYJToolCategory/UIKit/UIImage+RYJTool.{h,m}',
+            'RYJToolKit/Classes/RYJToolCategory/UIKit/UIButton+RYJTool.{h,m}',
+            'RYJToolKit/Classes/RYJToolCategory/UIKit/UIFont+RYJTool.{h,m}',
+            'RYJToolKit/Classes/RYJToolCategory/UIKit/UILabel+RYJTool.{h,m}',
+            'RYJToolKit/Classes/RYJToolCategory/UIKit/UIViewController+RYJTool.{h,m}'
        end
 
  end
