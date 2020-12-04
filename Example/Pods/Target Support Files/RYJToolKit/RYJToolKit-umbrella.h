@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "RYJToolMarco.h"
+#import "RYJToolKit.h"
 #import "RYJDate.h"
 #import "RYJReachability.h"
 #import "RYJPermission.h"
@@ -24,8 +26,6 @@
 #import "UIImage+RYJTool.h"
 #import "UILabel+RYJTool.h"
 #import "UIViewController+RYJTool.h"
-#import "RYJToolKit.h"
-#import "RYJToolMarco.h"
 
 FOUNDATION_EXPORT double RYJToolKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char RYJToolKitVersionString[];
