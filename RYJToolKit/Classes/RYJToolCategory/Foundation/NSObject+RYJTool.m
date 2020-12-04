@@ -6,6 +6,7 @@
 //
 
 #import "NSObject+RYJTool.h"
+#import <objc/runtime.h>
 
 @implementation NSObject (RYJTool)
 
