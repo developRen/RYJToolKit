@@ -1,0 +1,6 @@
+framework module RYJToolKit {
+  umbrella header "RYJToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
