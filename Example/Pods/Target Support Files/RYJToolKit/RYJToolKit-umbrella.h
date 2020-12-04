@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "RYJToolMarco.h"
 #import "RYJToolKit.h"
 #import "RYJDate.h"
 #import "RYJReachability.h"

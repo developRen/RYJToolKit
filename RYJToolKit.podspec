@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RYJToolKit'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.summary          = 'Underlying tool component.'
   s.homepage         = 'https://github.com/developRen/RYJToolKit'
@@ -17,10 +17,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   
-  s.prefix_header_file = "RYJToolKit/Classes/RYJToolKit.pch"
-  s.source_files = 'RYJToolKit/Classes/RYJToolMarco.h',
-                   'RYJToolKit/Classes/RYJToolKit.h',
-                   'RYJToolKit/Classes/RYJToolKit.pch'
+#  s.prefix_header_file = "RYJToolKit/Classes/RYJToolKit.pch"
+  s.source_files = 'RYJToolKit/Classes/RYJToolKit.h'
+#                   'RYJToolKit/Classes/RYJToolMarco.h'
                    
   s.subspec 'RYJDate' do |ss|
       ss.source_files = 'RYJToolKit/Classes/RYJDate/RYJDate.{h,m}'
@@ -44,15 +43,15 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'RYJToolCategory' do |ss|
-       
+
        ss.subspec 'Foundation' do |ss|
             ss.source_files = 'RYJToolKit/Classes/RYJToolCategory/Foundation/**/*'
        end
-       
+
        ss.subspec 'UIKit' do |ss|
             ss.source_files = 'RYJToolKit/Classes/RYJToolCategory/UIKit/**/*'
        end
-       
+
  end
        
   # s.resource_bundles = {

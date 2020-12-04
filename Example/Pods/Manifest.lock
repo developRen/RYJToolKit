@@ -4,24 +4,24 @@ PODS:
     - RealReachability/Ping (= 1.3.0)
   - RealReachability/Connection (1.3.0)
   - RealReachability/Ping (1.3.0)
-  - RYJToolKit (0.3.0):
-    - RYJToolKit/RYJDate (= 0.3.0)
-    - RYJToolKit/RYJNetwork (= 0.3.0)
-    - RYJToolKit/RYJPermission (= 0.3.0)
-    - RYJToolKit/RYJRouter (= 0.3.0)
-    - RYJToolKit/RYJTimer (= 0.3.0)
-    - RYJToolKit/RYJToolCategory (= 0.3.0)
-  - RYJToolKit/RYJDate (0.3.0)
-  - RYJToolKit/RYJNetwork (0.3.0):
+  - RYJToolKit (0.3.1):
+    - RYJToolKit/RYJDate (= 0.3.1)
+    - RYJToolKit/RYJNetwork (= 0.3.1)
+    - RYJToolKit/RYJPermission (= 0.3.1)
+    - RYJToolKit/RYJRouter (= 0.3.1)
+    - RYJToolKit/RYJTimer (= 0.3.1)
+    - RYJToolKit/RYJToolCategory (= 0.3.1)
+  - RYJToolKit/RYJDate (0.3.1)
+  - RYJToolKit/RYJNetwork (0.3.1):
     - RealReachability
-  - RYJToolKit/RYJPermission (0.3.0)
-  - RYJToolKit/RYJRouter (0.3.0)
-  - RYJToolKit/RYJTimer (0.3.0)
-  - RYJToolKit/RYJToolCategory (0.3.0):
-    - RYJToolKit/RYJToolCategory/Foundation (= 0.3.0)
-    - RYJToolKit/RYJToolCategory/UIKit (= 0.3.0)
-  - RYJToolKit/RYJToolCategory/Foundation (0.3.0)
-  - RYJToolKit/RYJToolCategory/UIKit (0.3.0)
+  - RYJToolKit/RYJPermission (0.3.1)
+  - RYJToolKit/RYJRouter (0.3.1)
+  - RYJToolKit/RYJTimer (0.3.1)
+  - RYJToolKit/RYJToolCategory (0.3.1):
+    - RYJToolKit/RYJToolCategory/Foundation (= 0.3.1)
+    - RYJToolKit/RYJToolCategory/UIKit (= 0.3.1)
+  - RYJToolKit/RYJToolCategory/Foundation (0.3.1)
+  - RYJToolKit/RYJToolCategory/UIKit (0.3.1)
 
 DEPENDENCIES:
   - RYJToolKit (from `../`)
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
-  RYJToolKit: 81ff453b9782101a3339a12f6192a9340bc098d9
+  RYJToolKit: 978450154ec842a6188dde085299812cc674de1e
 
 PODFILE CHECKSUM: 4ea56b659cc647fb55199ef1bd596c4e964ab0aa
 
