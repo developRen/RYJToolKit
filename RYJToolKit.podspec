@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RYJToolKit'
-  s.version          = '0.3.3'
+  s.version          = '0.3.4'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.summary          = 'Underlying tool component.'
   s.homepage         = 'https://github.com/developRen/RYJToolKit'
@@ -42,6 +42,10 @@ Pod::Spec.new do |s|
       ss.source_files = 'RYJToolKit/Classes/RYJTimer/RYJTimer.{h,m}'
   end
 
+  s.subspec 'RYJLocation' do |ss|
+      ss.source_files = 'RYJToolKit/Classes/RYJLocation/RYJLocation.{h,m}'
+  end
+  
   s.subspec 'RYJToolCategory' do |ss|
 
        ss.subspec 'Foundation' do |ss|

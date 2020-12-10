@@ -13,6 +13,7 @@
 #import "RYJToolKit.h"
 #import "RYJToolMarco.h"
 #import "RYJDate.h"
+#import "RYJLocation.h"
 #import "RYJReachability.h"
 #import "RYJPermission.h"
 #import "RYJRouter.h"

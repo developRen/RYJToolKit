@@ -21,6 +21,8 @@
 #import <RYJToolKit/RYJReachability.h>
 // 组件化路由
 #import <RYJToolKit/RYJRouter.h>
+// 定位
+#import <RYJToolKit/RYJLocation.h>
 
 // 分类 - Foundation
 #import <RYJToolKit/NSObject+RYJTool.h>
