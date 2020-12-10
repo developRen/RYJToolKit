@@ -5,6 +5,7 @@
 Underlying tool component.
 
 - RYJToolMarco: Macro definition
+- RYJLocation: Acquisition of location data
 - RYJDate: Date processing
 - RYJNetwork: Network monitoring
 - RYJPermission: System permissions
@@ -22,7 +23,7 @@ RYJToolKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RYJToolKit','~> 0.3.3'
+pod 'RYJToolKit','~> 0.3.4'
 ```
 
 ## Author

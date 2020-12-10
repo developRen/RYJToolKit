@@ -7,7 +7,7 @@
 //
 
 #import "RYJViewController.h"
-//#import <RYJToolKit/RYJToolKit.h>
+#import <RYJToolKit/RYJToolKit.h>
 
 @interface RYJViewController ()
 
@@ -15,8 +15,7 @@
 
 @implementation RYJViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     

@@ -251,8 +251,7 @@
     
 }
 
-+(void)applicationOpenSettings
-{
++ (void)applicationOpenSettings {
     // iOS7.0及以前
     // NSURL * url = [NSURL URLWithString:@"prefs:root=NOTIFICATIONS_ID"]; 被废弃了
     // 苹果废弃上面的方式 认为是私有API
