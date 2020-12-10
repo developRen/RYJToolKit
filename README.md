@@ -5,6 +5,7 @@
 Underlying tool component.
 
 - RYJToolMarco: Macro definition
+- RYJLocation: Acquisition of location data
 - RYJDate: Date processing
 - RYJNetwork: Network monitoring
 - RYJPermission: System permissions
