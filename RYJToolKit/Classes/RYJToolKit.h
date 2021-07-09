@@ -19,8 +19,6 @@
 #import <RYJToolKit/RYJDate.h>
 // 网络监听
 #import <RYJToolKit/RYJReachability.h>
-// 组件化路由
-#import <RYJToolKit/RYJRouter.h>
 // 定位
 #import <RYJToolKit/RYJLocation.h>
 
