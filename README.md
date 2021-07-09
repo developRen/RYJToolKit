@@ -6,38 +6,41 @@
 
 
 
-# Introduction
+## Introduction
 
-Underlying tool component.
+底层工具组件。
 
-- RYJToolMarco: Macro definition
+- RYJToolMarco: 常用宏定义
 
-- RYJLocation: Acquisition of location data
+- RYJLocation: 定位位置数据的获取
 
-- RYJDate: Date processing
+- RYJDate: 日期处理
 
-- RYJNetwork: Network monitoring
+- RYJNetwork: 
 
-- RYJPermission: System permissions
+  - RYJReachability: 网络状态监听
+  - [YTKNetwork](https://github.com/yuantiku/YTKNetwork): 猿题库基于[AFNetworking](https://github.com/AFNetworking/AFNetworking) 封装的网络库
 
-- RYJRouter: routing
+- RYJPermission: 系统权限
 
-- RYJTimer: GCD time package
+- RYJTimer: 基于GCD的定时器
 
 - RYJToolCategory
 
+  - Foundation
+  - UIKit
+  
   
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+要运行示例项目，克隆repo，并首先从example目录运行`pod install`。
 
 
 
 ## Installation
 
-RYJToolKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+在你的Podfile中添加以下代码,运行`pod install`。
 
 ```ruby
 pod 'RYJToolKit','~> 0.3.4'

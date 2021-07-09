@@ -21,6 +21,14 @@
     "RYJToolKit/Classes/RYJToolKit.h",
     "RYJToolKit/Classes/RYJToolMarco.h"
   ],
+  "dependencies": {
+    "YTKNetwork": [
+
+    ],
+    "CTMediator": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "RYJDate",
@@ -38,10 +46,6 @@
     {
       "name": "RYJPermission",
       "source_files": "RYJToolKit/Classes/RYJPermission/RYJPermission.{h,m}"
-    },
-    {
-      "name": "RYJRouter",
-      "source_files": "RYJToolKit/Classes/RYJRouter/RYJRouter.{h,m}"
     },
     {
       "name": "RYJTimer",

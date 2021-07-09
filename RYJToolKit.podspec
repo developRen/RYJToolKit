@@ -34,9 +34,9 @@ Pod::Spec.new do |s|
       ss.source_files = 'RYJToolKit/Classes/RYJPermission/RYJPermission.{h,m}'
   end
     
-  s.subspec 'RYJRouter' do |ss|
-      ss.source_files = 'RYJToolKit/Classes/RYJRouter/RYJRouter.{h,m}'
-  end
+#  s.subspec 'RYJRouter' do |ss|
+#      ss.source_files = 'RYJToolKit/Classes/RYJRouter/RYJRouter.{h,m}'
+#  end
     
   s.subspec 'RYJTimer' do |ss|
       ss.source_files = 'RYJToolKit/Classes/RYJTimer/RYJTimer.{h,m}'
@@ -72,5 +72,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  
+  s.dependency 'YTKNetwork'
+  s.dependency 'CTMediator'
   
 end

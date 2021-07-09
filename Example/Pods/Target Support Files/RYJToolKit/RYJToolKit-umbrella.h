@@ -16,7 +16,6 @@
 #import "RYJLocation.h"
 #import "RYJReachability.h"
 #import "RYJPermission.h"
-#import "RYJRouter.h"
 #import "RYJTimer.h"
 #import "NSArray+RYJTool.h"
 #import "NSFileManager+RYJTool.h"
