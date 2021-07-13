@@ -8,199 +8,197 @@
 
 /* Begin PBXBuildFile section */
 		004E949DF07AE7B4A83FA37F94F9E3A7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CD40F6E2AE624AB250F4E6018E9A0 /* AFURLRequestSerialization.m */; };
-		00AB1B8A272DA1BF01673379FB641FE4 /* RYJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EE037C186D1767AD77D2565B1A5A4B /* RYJTimer.m */; };
-		0245CB297244A18DF8E17F51C9941AC2 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD0FD598B1498EB30137CC2368BBB71 /* YTKNetworkConfig.m */; };
-		09296C5E07071561EA1A7667B5D1FDBF /* UIButton+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B315E42822DEEA4DFB83894AECF4576 /* UIButton+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A13E4C734A9279EC6F531DF6B1FAF07 /* YTKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB71C5F2EEB01139E2E5F4045AFD9FE /* YTKRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B226CD3F42767A279C042D82ED143C6 /* ReachStateUnReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = 82130161E55A4A506EDBB36FC8903389 /* ReachStateUnReachable.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0CA04C641F73702CBB9D440483C6055C /* RealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F8EAFB9A05AB39C0D4899B0F6046FF /* RealReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		122FFA313EC1A875BE5552130D7AC76E /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9CEE6FE333F4AAFE06D5674D4EAE4 /* YTKChainRequest.m */; };
-		181F4A257E5CD68AC90EA506760BFF84 /* FSMStateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C14E4C5EB03CC7827B96A6E8D3BE792D /* FSMStateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		18E1C70123AB7D95BB7CC6C039A632A0 /* NSString+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 88187ED62958CD129264117D6233B38B /* NSString+RYJTool.m */; };
+		08067E0B35F729AC0EF0834F337F2966 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C523E5725384DDA084106FB69912A1 /* CTMediator.framework */; };
+		0806B4038EE4DC0AAAA27C02FA8211C0 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D731F9049BC51002228C77F7FE15B9D /* ReachStateUnloaded.m */; };
+		09E91A4653A458B7EC34AB357DF8E907 /* NSString+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 405411F89A56799247411E78EE0227D3 /* NSString+RYJTool.m */; };
+		0AF59C75C3C773BCCDC892601A0D795E /* UILabel+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8215D5DF9C9A779FAF5FD2B367498261 /* UILabel+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7FCAC2DAE7265582FF90676AF007BA /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C9DBE6544450DD72F6D7D2D4053201EA /* PingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15838B25CB258FB574D6110DC481C7CC /* ReachStateLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = A0CA22357620FA36E46DBA8FCCCD3B1F /* ReachStateLoading.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		172A1F6CF52A2956A53FBE30EB0954E6 /* LocalConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4924AB964FEA1F0B4A39F4B961203249 /* LocalConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19A202FDA77EB2955C11866E90F261F6 /* Pods-RYJToolKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C35F18AF159DE9C806F003972B9106 /* Pods-RYJToolKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2151D92D60F4EDA86D8F8172DF999FB9 /* RealReachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA547BCE910C85044447B3A46B0FB04 /* RealReachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22000D8618B9E84C25DC4670E343AD07 /* RYJLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C685C2ACCFA80AA6E1CE23CD19D9925B /* RYJLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23F1FA56D21101C5027EF107D8F07213 /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E731492A51E1B4966123D0F6A5A691B /* YTKBaseRequest.m */; };
-		2481AB40D94A032CB6B515D91A36D6E0 /* YTKChainRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = F2582FFE9EAA4A35E5497619F2EA8768 /* YTKChainRequestAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AD8F37D30207C1638826CFE948E29E9 /* UIViewController+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E9B9345B00181061C547C8294E33D7 /* UIViewController+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B97559540A6BEAB9CC09F51FD77D6B9 /* RealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F8EAFB9A05AB39C0D4899B0F6046FF /* RealReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D347B9ED09A18E9D691968427C50C97 /* ReachStateUnReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = 82130161E55A4A506EDBB36FC8903389 /* ReachStateUnReachable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		210883F0610C6D5AB19BC70CD28A081F /* UIFont+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CDD42FCB61916E8F04E15CA928A0BF /* UIFont+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21999CD6B4B5DC8B7CD34FB0002978A0 /* RYJToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5373AF0209C1AB229B6CBCCF3942405 /* RYJToolKit-dummy.m */; };
+		227FA8E34C4AF4684D9CC925C7F419C4 /* ReachStateUnloaded.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F4E7FE7BB665A15AC249DF3B899691 /* ReachStateUnloaded.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		252C9BD279B53A5D6A5074D4BC1E9CC5 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E6A097712DAC45DC5002282801966 /* AFSecurityPolicy.m */; };
-		25EABE8797C1B3C86F9F9201C309D984 /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92E39576A3C78EBBE7E30B0F3587D8 /* ReachStateUnReachable.m */; };
+		254C9DB94F609977DBDD6E28B3429A07 /* NSFileManager+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D66FFEC0FAA5945736697BB6C18E78A /* NSFileManager+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258A57DF18EFE1F6B9FDDF81E0AE872F /* YTKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF72B794CC91322D2F6B9681A994074 /* YTKNetwork-dummy.m */; };
 		2606153E172A2589B093226B741CE334 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7933D384C3976F1669C6CCFF16E377 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26416221416AE2867B35D094B8FC115D /* RYJToolMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 1573562244060A1DF9408A83052F9286 /* RYJToolMarco.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AB12B591125FCE6AFA89BDC6CF6EE95 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3E9DE0BBE04FFBFF3BAD74802E3ED2 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB80C65D81BD8A365E1031BEDCD324A /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE392F513F06BB998614DFB7D7169 /* ReachStateWWAN.m */; };
+		2C7C4768B875DAB942C567AEBA427DFE /* RYJReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 92217C963571E920E23D5BF797BF7DDB /* RYJReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CA775129E8283960D4203C963E13385 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E93E45DB457E665B837B0D2376645 /* PingFoundation.m */; };
+		2D0144A5AF65392B49DDB51F632757CB /* ReachState.h in Headers */ = {isa = PBXBuildFile; fileRef = 9549E4C92E64F1B549F5B999D3252EA1 /* ReachState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D75B125397D0436337E76E05D768572 /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E425816374F3E2F0809A77EDBF8E /* YTKBatchRequest.m */; };
+		2E6B1F7549E85ABBF87CA55210FA141B /* RYJLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C685C2ACCFA80AA6E1CE23CD19D9925B /* RYJLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3015650020945139F177B5D2A9C6EF57 /* Pods-RYJToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E912724969788A09D3B1DF9830CC51C /* Pods-RYJToolKit_Example-dummy.m */; };
-		30269CDE9C7418858E40AEB86A4A3CEC /* RYJToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ECFABAE8739CA56D4056E3493FC1DCA /* RYJToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35EBD4FBCEBB25C10D1949138666ECBC /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BE2EFF317C301E5C3D09FD55105DA9 /* YTKNetworkPrivate.m */; };
-		3717F3CF878899F20C8E221CE28C778C /* RealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11BFA4E2426C833F55D2F74E9E0E058 /* RealReachability.framework */; };
-		3AE5A9183B4F78673643F3A13792C573 /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C9DBE6544450DD72F6D7D2D4053201EA /* PingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31DD832B4F3A1FD48AB1ED41CD079F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
+		3A1511DB6254DE54C147AD45A12847DA /* YTKBatchRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 55744BDC24932ADDCD7BEE60F8D0EA05 /* YTKBatchRequestAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B36C17649EF23608E08FE7C11B6BA8F /* UILabel+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 632DAF097157A21A486537E14E79E836 /* UILabel+RYJTool.m */; };
 		3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFD44674BBD7BC38C77A93B75469625 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EF9927399630ECEEF131312ECB60858 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = AD916AC7976B93BBD40239E7316B36F5 /* ReachStateWIFI.m */; };
-		3FCA2900FFE33CEC0A40A303C0EEB4BA /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = E988BECB327CA13D329E1F256234AA62 /* YTKNetworkAgent.m */; };
-		3FCFBA7F69EFD7BE1BB80D2A3DAE2928 /* ReachStateWIFI.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FFD2C8B419E72FFD2D0160F09C16AC /* ReachStateWIFI.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		407D4BA3E6BF309ABF8244E4FD47F13B /* FSMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4127DE5F0E0E45D8E5402D5698CDF8CD /* FSMDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		432B31463FE518957AFC5BAB359E3A9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
-		439CFAC6FFF3A6D07DB621C011E7E330 /* UIFont+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF91498E1EA490D21D5D1E33B1E2538 /* UIFont+RYJTool.m */; };
-		445DCE197775E8B61DEB23E4521686D0 /* RYJDate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6AFE18DFA2A7DF11DB934D25BD5B23 /* RYJDate.m */; };
+		3B9C84432269F461FC4C06645C3D1D0B /* RealReachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA547BCE910C85044447B3A46B0FB04 /* RealReachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DD45A49831A956A5C3A4404BF97A0B6 /* RealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11BFA4E2426C833F55D2F74E9E0E058 /* RealReachability.framework */; };
+		46BA6AF6A400FF53C732EFCD8048E9C8 /* YTKBatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EECCCC87872DF0AE06E879C95D36A4 /* YTKBatchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC1E491F4E14377274C2AEDFAC2EB7 /* CTMediator.m */; };
-		49A9BBDF7659368DDDF848D462300D40 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE26EAC3BD4E6BA40564D0FF160CD2 /* FSMStateUtil.m */; };
-		4B59866883F888600AD7D343C84CB20A /* UIFont+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A028E594B1E45F0EA2DFDD90DB4DD154 /* UIFont+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C73E1D8F6ABC709DB2DD62EF71994C1 /* ReachStateUnloaded.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F4E7FE7BB665A15AC249DF3B899691 /* ReachStateUnloaded.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F2D3698C4A8861BF7886DEC87361A3B /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A12AC8A452F7E099AE3168DE21A3C381 /* RealReachability.m */; };
+		47648828C39E6B885877BACAC80F77A4 /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E731492A51E1B4966123D0F6A5A691B /* YTKBaseRequest.m */; };
+		477FE485A172392325C462485E335C83 /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A12AC8A452F7E099AE3168DE21A3C381 /* RealReachability.m */; };
+		4796731E7712568BE3670F32D33B40C2 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 69708F800D3537882662719463360D3A /* YTKChainRequestAgent.m */; };
+		4855B8EBD76003E4C4CC3DC8D0465A2E /* ReachStateWIFI.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FFD2C8B419E72FFD2D0160F09C16AC /* ReachStateWIFI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		490EAE3A6F9A179CEE3598146BB73313 /* YTKChainRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3625C96DCA0D8F537DF573DE76D500F6 /* YTKChainRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F05302102FA9D767A9D860E9B231D8F /* RYJToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E79CCF82D74E72777C54EFAE9FA42931 /* RYJToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4379B19805839CDC6DFEE325A53D4188 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		558C974C59B8B59E94E1A51B1BFBB741 /* ReachStateWWAN.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A16554796FEFD88817CAAEC544D7605 /* ReachStateWWAN.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5729AA861A8EF42435295B47A3E4C85A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
-		5C206E42CB9B4BBEAF86B255E0AFEE6D /* RYJToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E79CCF82D74E72777C54EFAE9FA42931 /* RYJToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CD474D8681066CE9B75ED69C2072D66 /* NSFileManager+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 41505B0DA4F364AFAF5BC511FB3E0592 /* NSFileManager+RYJTool.m */; };
-		619BB73FB114EE7B4BCFF2FDEEA14C56 /* ReachState.h in Headers */ = {isa = PBXBuildFile; fileRef = 9549E4C92E64F1B549F5B999D3252EA1 /* ReachState.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		62F44ACC0DD7DDC5457E3343F6B8973E /* RYJReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 92217C963571E920E23D5BF797BF7DDB /* RYJReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BAC71A83294C054FA2F2BBCD1072BFE /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BE2EFF317C301E5C3D09FD55105DA9 /* YTKNetworkPrivate.m */; };
+		5D4F78CD09B786831DA5EEFEE4BAEAAA /* YTKChainRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = F2582FFE9EAA4A35E5497619F2EA8768 /* YTKChainRequestAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61997690384575932DD193972B12BFB2 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9CEE6FE333F4AAFE06D5674D4EAE4 /* YTKChainRequest.m */; };
 		66589771977CB13B36E51766DF20CB97 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D43C9762EE32B6523043977C55DE4C /* AFURLResponseSerialization.m */; };
-		666448111208192DC663DB893172B557 /* YTKNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = CA620CCB6843D14899574FCCA7B8EE1C /* YTKNetworkAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66DBC25CE50D0E67F015AF878D51512B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A37DC4337414E8DBA138790CB0297418 /* AFNetworking-dummy.m */; };
 		69B61193218731833D94A63CD9010166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
 		6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E47D047DF064E33E9A1350275CC021D0 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B93687229CA481D1481AE47DFD23DC2 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = E68F563FA2E81A26C9E8F1002F35AAC6 /* ReachState.m */; };
-		6D33C48349226A8528DDB64201D8B836 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D731F9049BC51002228C77F7FE15B9D /* ReachStateUnloaded.m */; };
-		6E28FC2D4908E0A4F26EE2BBB166331D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA7F22179F3ACC34A6C4F334DE5AE8 /* CFNetwork.framework */; };
 		6E30E6FE024C578C929D1636C37F0F80 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2320EAB4192F6DCB543C14BE81AF6C8 /* Security.framework */; };
-		6EFE2A44D9967883D92C202569098ED0 /* RYJReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76A4134F734C9122BF984360F6BBA1 /* RYJReachability.m */; };
 		702A4C4757112758FB731D34D8F27EA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
-		70D91174D33E25973379AAE57247B306 /* RYJDate.h in Headers */ = {isa = PBXBuildFile; fileRef = DF192C1A434FAF77FDCB3138E229338E /* RYJDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		735BA8B5955EFE813BD6F17D61F76BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
-		76F5AD5C4015CDD3286E10B701E687B8 /* UIViewController+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A32BB7A78EB460984C18247A4DCFAF6 /* UIViewController+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77D15A37134D5563EDA18327030ECB8A /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E425816374F3E2F0809A77EDBF8E /* YTKBatchRequest.m */; };
-		787B475C84AB6BE2D10CC7BFE8B7A63F /* NSString+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8389F7C489E8F3D36A3FFB4D553067D2 /* NSString+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793935080AF09E420C0EEE6F21D1EC0F /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 284E8ADD325D2EB97BE6F26132753CA4 /* YTKBatchRequestAgent.m */; };
-		7D0B8611AC6D8F118C20292B6022C04A /* YTKChainRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3625C96DCA0D8F537DF573DE76D500F6 /* YTKChainRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E398F1181EC1AE9116FE239BC8875F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA7F22179F3ACC34A6C4F334DE5AE8 /* CFNetwork.framework */; };
+		789B3CC070C0A19C89A0B85E9E851B6C /* RYJPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B32DCC85BFCA42AFACEA61E0D338AE /* RYJPermission.m */; };
+		7C8DEDA5448B63FC0B879A7B267EA9E8 /* NSArray+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A18B4B52F1AA31FD4BA2B882011CAB39 /* NSArray+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E5A3A26B9223BA667AE3A262B9AC691 /* PingFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4601F1F6AC479C8EAC8D5CC9EE054367 /* PingFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B131025562083C8883DB3703C7EEC3DE /* CTMediator+HandyTools.m */; };
-		809D462A1B1BB4C026F0FCDE2809E32C /* RYJToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5373AF0209C1AB229B6CBCCF3942405 /* RYJToolKit-dummy.m */; };
-		833258DE959E0B56646D538241EF106E /* RealReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E61B5922D460120C2C9477225B549E4A /* RealReachability-dummy.m */; };
-		853CC811FD5F0AF4CE87FC1F4C56C45D /* YTKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF72B794CC91322D2F6B9681A994074 /* YTKNetwork-dummy.m */; };
+		836DC6455001134C974DA4B7314C933C /* YTKNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4371AF02786238A71120AF910E90D4D6 /* YTKNetwork.framework */; };
+		842F12CA9B71D6C16BEECD098250DE3E /* RYJTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 358658A4CB42F06D802DF66872DD310E /* RYJTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85302A379021DCE6E27932A5288BA705 /* RYJToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ECFABAE8739CA56D4056E3493FC1DCA /* RYJToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B38EFC48531FD4D532DD18A8EFCA19 /* CTMediator-dummy.m */; };
-		868788A32257EEDE5822DD528B7ABDC7 /* NSObject+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6DBA929C13EB9D8E587785E9EA10E3 /* NSObject+RYJTool.m */; };
-		86B9B65B745CE699047E49D5E42A0339 /* UIButton+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435F22732971B7F6F6817F633741064 /* UIButton+RYJTool.m */; };
-		89BB1185AD202F2109185138E192A1C2 /* FSMEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A8443C3D74F54794BEF30C9147DAC6 /* FSMEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A27AAC44AE7EECB708775F2242FD0E0 /* YTKNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A833C234DFABDEACD838CEC2592CFB /* YTKNetworkConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8739A42F1B138D10DE06BA81996F4351 /* FSMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4127DE5F0E0E45D8E5402D5698CDF8CD /* FSMDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		878B531751E65AEEE76A348AB72DA7C7 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE26EAC3BD4E6BA40564D0FF160CD2 /* FSMStateUtil.m */; };
+		88B0EB81C1C06E9B1A736BFC6B4988AE /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 284E8ADD325D2EB97BE6F26132753CA4 /* YTKBatchRequestAgent.m */; };
+		8B39984CF7C5F0AE8924B9BE36C12FB0 /* NSObject+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD378299DBEE70AE3F69E74897EB525 /* NSObject+RYJTool.m */; };
+		8D538D7A29DDC1F9B14EFCA3EDC0EA86 /* UIViewController+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9391E91DC002E2581E22D81A85DF9687 /* UIViewController+RYJTool.m */; };
+		8E75879BFCDC377E9FAC9A8612460FB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
 		902D3AC77A4A0EC157689DE43D067594 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F798AA7CD0B6E679279F5E13DED06B /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93C0D2020602758F5A6677280ACC6FF1 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 69708F800D3537882662719463360D3A /* YTKChainRequestAgent.m */; };
+		958FD3F31DA6AEBFB07B2BF3F6F78404 /* YTKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB71C5F2EEB01139E2E5F4045AFD9FE /* YTKRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		973088ADB83EF5B6F1E6BD35E8EB6891 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD0FD598B1498EB30137CC2368BBB71 /* YTKNetworkConfig.m */; };
+		9C2CD7134B8043E329AA8BAC6AE753AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
 		9C7AC9B98D9DC891A33141AAA551E968 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 34AB60F55471ADEFEA76A439BA30C10F /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D1B71245CC13482530BA21F20FF5010 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5DF2695E9DEEA8644687657491602 /* CoreGraphics.framework */; };
-		9FCFC80F25D669AFC7B5993A4093259E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36216E9D03528D8759AAC83C13B0457B /* AFNetworking.framework */; };
-		A00E2F0826579DF9369AE8BC854E5AFD /* RYJTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 358658A4CB42F06D802DF66872DD310E /* RYJTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DA7C1AFAC09E8677A822DFCA1C2B9A7 /* UIImage+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D59F8908A640C2BE03AA2BC3485CE /* UIImage+RYJTool.m */; };
+		9F80A89662BF9A240FCE0C2161507697 /* YTKNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC6AF8D87DD5C274023B58977E7168B /* YTKNetworkPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A030A54254EDA93296DD8CC5C18686F5 /* Pods-RYJToolKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7871D2ED0D82BAF8CB685BB81CD1A98A /* Pods-RYJToolKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2067385E34E2BF10E2DEF909C4AAE04 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD13AB4613C8BED6B26C055A4C947D50 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A27E442412BF60ADA90F19F7A7066348 /* YTKNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799B2507085D46DCC5513CB6A5B53999 /* YTKNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2855E064480DD30006ECD279428EC77 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1625B9E35FFF0D2B0C51736CF607BB1 /* YTKRequest.m */; };
+		A2959F00ACDA2289703CA5B038C80EBC /* RYJLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7978E27A6DCD01B665C1B361DB42797B /* RYJLocation.m */; };
+		A5D6FC483D7B739BD6E28C39B75D0E2C /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92E39576A3C78EBBE7E30B0F3587D8 /* ReachStateUnReachable.m */; };
+		A8367DC0A59BD75C3727A6D48A1C8080 /* RealReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E61B5922D460120C2C9477225B549E4A /* RealReachability-dummy.m */; };
 		A8EAB172A2794AA6C7AC25479F874F03 /* Pods-RYJToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89680E6E85A3834235A0BEC0F85A69EE /* Pods-RYJToolKit_Tests-dummy.m */; };
-		A965C69C4C84332DF010B80367DC8677 /* RYJPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B32DCC85BFCA42AFACEA61E0D338AE /* RYJPermission.m */; };
-		AAE49EC0187D90562163E73673877042 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E93E45DB457E665B837B0D2376645 /* PingFoundation.m */; };
-		AAF720C56E86B9476214169F688D45F8 /* NSObject+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 293B3E33D621C59D5321034A8FD42592 /* NSObject+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B17EE45CD28A96DE3D60699F4F7CF11E /* YTKNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4371AF02786238A71120AF910E90D4D6 /* YTKNetwork.framework */; };
+		AA0D73F7E3A18460529947984B69F2D8 /* FSMEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A8443C3D74F54794BEF30C9147DAC6 /* FSMEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA0D9E01AE343A5CC7423FFFCCCF5D94 /* RYJReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76A4134F734C9122BF984360F6BBA1 /* RYJReachability.m */; };
+		AAC1F7490AC3EEDA72825C6CD9ED0D2D /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C04AA6E98CFAA9BFFE252C3B12D2EF1 /* ReachStateLoading.m */; };
+		ABEACB76144659FF757DDCC883CB9102 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = AD916AC7976B93BBD40239E7316B36F5 /* ReachStateWIFI.m */; };
+		AC46BB4276A2C6A23E5D5A6F896EC5B5 /* YTKNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = AF53C4DC6D8FE4EBB98233B2CCF8D2BE /* YTKNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC777ED8EAEF2E0F19F991227B406602 /* YTKBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA567299CCCB8246648309262E463E /* YTKBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECACD38D186331D1E7F705C0376A73D /* YTKNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A833C234DFABDEACD838CEC2592CFB /* YTKNetworkConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B623D8B678FA3C4E8E05BA9F192B7FA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5DF2695E9DEEA8644687657491602 /* CoreGraphics.framework */; };
-		BA3B22C0F51A05B0AC3F0C1D29FC820D /* ReachStateLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = A0CA22357620FA36E46DBA8FCCCD3B1F /* ReachStateLoading.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BB39A736B18DACECC2C43FF328B867A3 /* LocalConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4924AB964FEA1F0B4A39F4B961203249 /* LocalConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBAC10C1F2B729091A49C9AA8E0D4965 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF54A7F371DE3B480158D4392C23B30 /* PingHelper.m */; };
+		B8F620ACD067ACB3A0AEDD914B84DC48 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = E68F563FA2E81A26C9E8F1002F35AAC6 /* ReachState.m */; };
 		BF4E1FFFFCBF4B2B3DF134786DAFCBF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C10BD74C12B5B33BFB73CB726DD2B /* SystemConfiguration.framework */; };
-		C1D5C1A0638111E602F765A1AEC5F7CB /* YTKBatchRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 55744BDC24932ADDCD7BEE60F8D0EA05 /* YTKBatchRequestAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C34A8AFDA332F66167B534AE46164706 /* YTKBatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EECCCC87872DF0AE06E879C95D36A4 /* YTKBatchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C56851BC6AD22FB08577422D65AAC027 /* NSFileManager+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6B7722D861D12B1DD8BEBC2EB2F9A3 /* NSFileManager+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C63609ABC18A7181A965CE189606CEB8 /* NSArray+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E83AE6E4400C36406907A24CF7EAE7 /* NSArray+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6EBF0748D58F46970F6E1CEDAF58136 /* YTKNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = AF53C4DC6D8FE4EBB98233B2CCF8D2BE /* YTKNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7FAA9FF8B3CBA9E621264A73EDDE18B /* UILabel+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C147994111C939F970B2CB54A8B646 /* UILabel+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA4340E9BD80C0B6F98FF7D9B2CCAB5F /* UIImage+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AC00874EC2BD6293E167215E88BF8853 /* UIImage+RYJTool.m */; };
-		CB16239DEAFA1BC7D74C5204AA3DD3D8 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C04AA6E98CFAA9BFFE252C3B12D2EF1 /* ReachStateLoading.m */; };
-		D0A8783A8CEE07068B71C89D8FD9E07B /* PingFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4601F1F6AC479C8EAC8D5CC9EE054367 /* PingFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C17118BD4BA4CBBEE2B3C666C8644925 /* RYJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EE037C186D1767AD77D2565B1A5A4B /* RYJTimer.m */; };
+		C7697714C50A52F7DE5CD8D7D170FA7A /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BC94A9269AE95AF2CF46CC100A6EDDB4 /* FSMEngine.m */; };
+		C83BAD604818DCAC9278E3B5C8EE7D2A /* RYJToolMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 1573562244060A1DF9408A83052F9286 /* RYJToolMarco.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA70FF338CD8333A593154BE00E00335 /* YTKNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = CA620CCB6843D14899574FCCA7B8EE1C /* YTKNetworkAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB348FFE35081E58254D0FC2BFD45C72 /* UIFont+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FBDFA0F9D80CAB213A72B536AEF87 /* UIFont+RYJTool.m */; };
+		CBEB4F9A075F2E8DDEA3B496C3DEF66E /* NSString+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7483DE51099C0A41AACA84768658A300 /* NSString+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5BC97C4F4A4D0935FEE311F89B6B010 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251E9DE67D6D677F7E49B91BBD872311 /* MobileCoreServices.framework */; };
-		D6430789BB5994D04AE2D4E0210FE4E3 /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BC94A9269AE95AF2CF46CC100A6EDDB4 /* FSMEngine.m */; };
-		D79816D3BDB67D6925F25EC105EBA5F7 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C523E5725384DDA084106FB69912A1 /* CTMediator.framework */; };
-		D7A1D6644136CF5CC37985328B704FCB /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBA09C2C4A00EF8C8C6504110E3DCE /* LocalConnection.m */; };
+		D7124C728D83426C1A3CDDABE2EF8F75 /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBA09C2C4A00EF8C8C6504110E3DCE /* LocalConnection.m */; };
 		D7D25B5722CE584AA6169CA5B9731854 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8220055192CEB9E88E68762BD2B9B5F9 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC6E4439E32918021FA86F4623B9BD84 /* UIViewController+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE38366436067B217201D3738FCD83 /* UIViewController+RYJTool.m */; };
-		DD32B15BBF31C6233A55E4688AD23EF5 /* UILabel+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 26990F89F611398F6CD976B9C0074651 /* UILabel+RYJTool.m */; };
+		D8483701B7FFA1033BF85B09621DF2F9 /* NSArray+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDAC9E211CE81B43B0A7D4F24288272 /* NSArray+RYJTool.m */; };
+		D92EB3C6ED3C6C6D011995BB75192F5F /* NSObject+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA7E400F3CEA22C7669BEEF9B9BE28C /* NSObject+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD6573A43669B705B00DE3D57DDBACCB /* ReachStateWWAN.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A16554796FEFD88817CAAEC544D7605 /* ReachStateWWAN.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E06389FE80CBFAE6CCF395163845965B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE6F522045647956AC5E1A1BB1B5A9D /* AFHTTPSessionManager.m */; };
-		E2586B86CE96A283969EF52421832FC1 /* RYJPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACAC85DEB4B9FFACF160D3F476B7353 /* RYJPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2D480DDAE9976A15CE54B12711BF2FD /* YTKNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799B2507085D46DCC5513CB6A5B53999 /* YTKNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7A5F363895D18EC4DDCD76B2B83079A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
+		E2BA68C959BD1ABABFF4F33B3247A340 /* NSFileManager+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 05390372DF53A9F5086315FBDC957638 /* NSFileManager+RYJTool.m */; };
 		EA54765EF484A5CCB9ADBC049A949A1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39215FAB94A670D77FB844E9BA86C56 /* Foundation.framework */; };
 		EAC3FFEA80CFE0DD55C11B4448DC8324 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4CB9E7C16DE23DF59B1A7B518A7D39 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB9E2F56C09BA6D5D23905D7CE5AEF0E /* NSArray+RYJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1612BE6634F7E9FB4ADA805FF4B00 /* NSArray+RYJTool.m */; };
-		ED1A6942BAA83738D3BE1C138351CF64 /* YTKBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA567299CCCB8246648309262E463E /* YTKBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDC07B15752D7EBA1BC6D4B1A3BB6DCE /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1625B9E35FFF0D2B0C51736CF607BB1 /* YTKRequest.m */; };
-		EE88C74291E64C1DDE606B353E342EC2 /* RYJLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7978E27A6DCD01B665C1B361DB42797B /* RYJLocation.m */; };
-		F0E36100BAA405FAD64917477EF9A340 /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE392F513F06BB998614DFB7D7169 /* ReachStateWWAN.m */; };
-		F150D1F3BC34FF1D59084F4BB1C88CB5 /* UIImage+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = BD53155E17BDF4721BCD535DEDF7E9CB /* UIImage+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8366817999F722BA379A142D540329 /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = E988BECB327CA13D329E1F256234AA62 /* YTKNetworkAgent.m */; };
+		EE0FA73AC86D144EB539858059609A68 /* RYJDate.h in Headers */ = {isa = PBXBuildFile; fileRef = DF192C1A434FAF77FDCB3138E229338E /* RYJDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2115AF8633C2A06D30A4BF01E25B8D /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36216E9D03528D8759AAC83C13B0457B /* AFNetworking.framework */; };
+		EE4CECCAB83D912B0D007BB79EDB8713 /* UIImage+RYJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 762EA238C9407F2EFFC4DA31D6006852 /* UIImage+RYJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F460EA11B4B5A0049489417DE51AB7E6 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF54A7F371DE3B480158D4392C23B30 /* PingHelper.m */; };
+		F499D7720A1FEDE0271FE80D77FA555E /* FSMStateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C14E4C5EB03CC7827B96A6E8D3BE792D /* FSMStateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F4D969EE3C3BB7765EB3A02CA8759BE0 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D760A1AB8CC86D065B52AEC42BD7AB27 /* AFNetworkReachabilityManager.m */; };
+		F69F0C6CC47B95A90007BA723E9BFF60 /* RYJDate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6AFE18DFA2A7DF11DB934D25BD5B23 /* RYJDate.m */; };
 		FD1A347074B1B88A7C7541C853F06763 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF01CCDC32BF2B88443E21C08D2A67C /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD749114B8BC861CCD3CE0A368F7079D /* YTKNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC6AF8D87DD5C274023B58977E7168B /* YTKNetworkPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FE795EDCFA8A9712C7CEF3421A8B7823 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B32BBDBB7103898B8921344041E0CF6 /* AFURLSessionManager.m */; };
+		FEA43F7FA6ED7291A1893654F8311015 /* RYJPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACAC85DEB4B9FFACF160D3F476B7353 /* RYJPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1EDCB29F5389DC800DE7D0E01B2CF60A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D877AA5CCB5772505261462171EF8A75;
-			remoteInfo = RealReachability;
-		};
-		32386543F7751123D4DFF30CEAC488AD /* PBXContainerItemProxy */ = {
+		0CFD84F115F7E55BC19592F69DC68079 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
 			remoteInfo = CTMediator;
 		};
-		39785AAF45CD5BFEFB719455D8B3F417 /* PBXContainerItemProxy */ = {
+		473238DCF00EF48484F979E545080C1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC51EA5BE1682F8277BE5F13677E147C;
 			remoteInfo = YTKNetwork;
 		};
-		439DDA9AF95BC48FA0544DC2DD9B2D1F /* PBXContainerItemProxy */ = {
+		57D8919B3F659F990D7F657382470096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC51EA5BE1682F8277BE5F13677E147C;
+			remoteInfo = YTKNetwork;
+		};
+		8146758AD2E67B87A79A132EA07E16E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		926AC736A617408AD776D999BB6A6445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D877AA5CCB5772505261462171EF8A75;
+			remoteInfo = RealReachability;
+		};
+		A578E5E73A8CF2A689F66CCA071671D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D877AA5CCB5772505261462171EF8A75;
+			remoteInfo = RealReachability;
+		};
+		AA6615DA29E483355F7E1B3A3B7F13A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		9D7039DF17110DD735521A43AF033A86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC51EA5BE1682F8277BE5F13677E147C;
-			remoteInfo = YTKNetwork;
-		};
-		BCC3F36164701C4F4B1C52C1CB778186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D92241F879D20E763ACD2489954F3F5;
-			remoteInfo = "Pods-RYJToolKit_Example";
-		};
-		BEA6B87D76C14E5917638BD4BA717A27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		C567E6A0FD260BD6E1B2FFC0EF3CBE1D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D877AA5CCB5772505261462171EF8A75;
-			remoteInfo = RealReachability;
-		};
-		DD43A5CAA5FD10FB11221D67D7A8BFAE /* PBXContainerItemProxy */ = {
+		BB5F3AD3BD6C315660955554735E9484 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4D6EC861E4F06215495DE7C210AE46C;
 			remoteInfo = RYJToolKit;
 		};
-		E3844C525B570B6ABADB6BFE008EB5FB /* PBXContainerItemProxy */ = {
+		E87FE4C62F461203E3FEE0D334D90AED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
+		};
+		EC1EE00B35C26D7BBEAE10CC32C4F51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D92241F879D20E763ACD2489954F3F5;
+			remoteInfo = "Pods-RYJToolKit_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -209,6 +207,7 @@
 		008327C4807F24E34D370B8EC4CBCFC5 /* Pods-RYJToolKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYJToolKit_Example-Info.plist"; sourceTree = "<group>"; };
 		02C523E5725384DDA084106FB69912A1 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EA567299CCCB8246648309262E463E /* YTKBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBaseRequest.h; path = YTKNetwork/YTKBaseRequest.h; sourceTree = "<group>"; };
+		05390372DF53A9F5086315FBDC957638 /* NSFileManager+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSFileManager+RYJTool.m"; sourceTree = "<group>"; };
 		05EE037C186D1767AD77D2565B1A5A4B /* RYJTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYJTimer.m; path = RYJToolKit/Classes/RYJTimer/RYJTimer.m; sourceTree = "<group>"; };
 		0BBDDF050A9C2CFE274FD067A9F6EB1B /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		0C802A719713D8CADFB827CFC8166F28 /* YTKNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YTKNetwork.release.xcconfig; sourceTree = "<group>"; };
@@ -220,11 +219,9 @@
 		1C04AA6E98CFAA9BFFE252C3B12D2EF1 /* ReachStateLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateLoading.m; path = RealReachability/FSM/ReachStateLoading.m; sourceTree = "<group>"; };
 		251E9DE67D6D677F7E49B91BBD872311 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		257CE7B05A8920FFF7CF9BB3FB5D66CB /* Pods-RYJToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYJToolKit_Tests.modulemap"; sourceTree = "<group>"; };
-		26990F89F611398F6CD976B9C0074651 /* UILabel+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UILabel+RYJTool.m"; sourceTree = "<group>"; };
+		263FBDFA0F9D80CAB213A72B536AEF87 /* UIFont+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIFont+RYJTool.m"; sourceTree = "<group>"; };
 		284E8ADD325D2EB97BE6F26132753CA4 /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBatchRequestAgent.m; path = YTKNetwork/YTKBatchRequestAgent.m; sourceTree = "<group>"; };
-		293B3E33D621C59D5321034A8FD42592 /* NSObject+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSObject+RYJTool.h"; sourceTree = "<group>"; };
 		2ACAC85DEB4B9FFACF160D3F476B7353 /* RYJPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYJPermission.h; path = RYJToolKit/Classes/RYJPermission/RYJPermission.h; sourceTree = "<group>"; };
-		2B315E42822DEEA4DFB83894AECF4576 /* UIButton+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIButton+RYJTool.h"; sourceTree = "<group>"; };
 		2E92E39576A3C78EBBE7E30B0F3587D8 /* ReachStateUnReachable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnReachable.m; path = RealReachability/FSM/ReachStateUnReachable.m; sourceTree = "<group>"; };
 		2F4C60D10C0898D1C6D309F70B5114B9 /* Pods_RYJToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYJToolKit_Example.framework; path = "Pods-RYJToolKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD0FD598B1498EB30137CC2368BBB71 /* YTKNetworkConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkConfig.m; path = YTKNetwork/YTKNetworkConfig.m; sourceTree = "<group>"; };
@@ -235,14 +232,15 @@
 		36216E9D03528D8759AAC83C13B0457B /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3625C96DCA0D8F537DF573DE76D500F6 /* YTKChainRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKChainRequest.h; path = YTKNetwork/YTKChainRequest.h; sourceTree = "<group>"; };
 		39D0F0B355E57A8C4E06107CC25BF984 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
-		3A32BB7A78EB460984C18247A4DCFAF6 /* UIViewController+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIViewController+RYJTool.h"; sourceTree = "<group>"; };
 		3AA653156FB7646192CDE777E7F26E45 /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		3BA7E400F3CEA22C7669BEEF9B9BE28C /* NSObject+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSObject+RYJTool.h"; sourceTree = "<group>"; };
 		3BC5F9C3F875CF33BE58C549D74FF17E /* RYJToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYJToolKit-prefix.pch"; sourceTree = "<group>"; };
+		3BD378299DBEE70AE3F69E74897EB525 /* NSObject+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSObject+RYJTool.m"; sourceTree = "<group>"; };
 		3C4CB9E7C16DE23DF59B1A7B518A7D39 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		3D3CD40F6E2AE624AB250F4E6018E9A0 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		3F0315DF009B7798D5747FEF34BC0B70 /* YTKNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YTKNetwork.modulemap; sourceTree = "<group>"; };
+		405411F89A56799247411E78EE0227D3 /* NSString+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSString+RYJTool.m"; sourceTree = "<group>"; };
 		4127DE5F0E0E45D8E5402D5698CDF8CD /* FSMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMDefines.h; path = RealReachability/FSM/FSMDefines.h; sourceTree = "<group>"; };
-		41505B0DA4F364AFAF5BC511FB3E0592 /* NSFileManager+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSFileManager+RYJTool.m"; sourceTree = "<group>"; };
 		419F3408F987BB0CBA4BBAED1C994A70 /* RealReachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealReachability.debug.xcconfig; sourceTree = "<group>"; };
 		4371AF02786238A71120AF910E90D4D6 /* YTKNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YTKNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4379B19805839CDC6DFEE325A53D4188 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
@@ -250,6 +248,7 @@
 		4924AB964FEA1F0B4A39F4B961203249 /* LocalConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocalConnection.h; path = RealReachability/Connection/LocalConnection.h; sourceTree = "<group>"; };
 		4A8CB8E5DF0CBAE462E7F7C63104FB50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4CC4D33568549B1CA1D0AEB036F9B15F /* Pods-RYJToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYJToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D5D59F8908A640C2BE03AA2BC3485CE /* UIImage+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIImage+RYJTool.m"; sourceTree = "<group>"; };
 		4DF01CCDC32BF2B88443E21C08D2A67C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		4E731492A51E1B4966123D0F6A5A691B /* YTKBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBaseRequest.m; path = YTKNetwork/YTKBaseRequest.m; sourceTree = "<group>"; };
 		4F8BBA41172E6D908D4D3B396ACC6678 /* YTKNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YTKNetwork-Info.plist"; sourceTree = "<group>"; };
@@ -262,13 +261,12 @@
 		5A8156DF9712CADBCC36E2623C75ED59 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		5B76A4134F734C9122BF984360F6BBA1 /* RYJReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYJReachability.m; path = RYJToolKit/Classes/RYJNetwork/RYJReachability.m; sourceTree = "<group>"; };
 		5BA5DF2695E9DEEA8644687657491602 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		5BCE38366436067B217201D3738FCD83 /* UIViewController+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIViewController+RYJTool.m"; sourceTree = "<group>"; };
 		5D731F9049BC51002228C77F7FE15B9D /* ReachStateUnloaded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnloaded.m; path = RealReachability/FSM/ReachStateUnloaded.m; sourceTree = "<group>"; };
 		601EEA66C9A6080A11C1ADE5E2A91AE1 /* YTKNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YTKNetwork.framework; path = YTKNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B32DCC85BFCA42AFACEA61E0D338AE /* RYJPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYJPermission.m; path = RYJToolKit/Classes/RYJPermission/RYJPermission.m; sourceTree = "<group>"; };
+		632DAF097157A21A486537E14E79E836 /* UILabel+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UILabel+RYJTool.m"; sourceTree = "<group>"; };
 		643DE392F513F06BB998614DFB7D7169 /* ReachStateWWAN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWWAN.m; path = RealReachability/FSM/ReachStateWWAN.m; sourceTree = "<group>"; };
 		65BE2EFF317C301E5C3D09FD55105DA9 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkPrivate.m; path = YTKNetwork/YTKNetworkPrivate.m; sourceTree = "<group>"; };
-		66E83AE6E4400C36406907A24CF7EAE7 /* NSArray+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSArray+RYJTool.h"; sourceTree = "<group>"; };
 		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69708F800D3537882662719463360D3A /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKChainRequestAgent.m; path = YTKNetwork/YTKChainRequestAgent.m; sourceTree = "<group>"; };
 		69CC3DDA0F5C633873AFB714329589DC /* Pods-RYJToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYJToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -276,10 +274,11 @@
 		6D6F6C9B1124441D359E36F7DE7398D7 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		6DCC1E491F4E14377274C2AEDFAC2EB7 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		6E912724969788A09D3B1DF9830CC51C /* Pods-RYJToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYJToolKit_Example-dummy.m"; sourceTree = "<group>"; };
-		70C147994111C939F970B2CB54A8B646 /* UILabel+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UILabel+RYJTool.h"; sourceTree = "<group>"; };
 		738C10BD74C12B5B33BFB73CB726DD2B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		73B4FC9606198C129484E5BF99FA3D5F /* Pods-RYJToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYJToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7483DE51099C0A41AACA84768658A300 /* NSString+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSString+RYJTool.h"; sourceTree = "<group>"; };
 		74C35F18AF159DE9C806F003972B9106 /* Pods-RYJToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYJToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		762EA238C9407F2EFFC4DA31D6006852 /* UIImage+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIImage+RYJTool.h"; sourceTree = "<group>"; };
 		7871D2ED0D82BAF8CB685BB81CD1A98A /* Pods-RYJToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYJToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		7978E27A6DCD01B665C1B361DB42797B /* RYJLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYJLocation.m; path = RYJToolKit/Classes/RYJLocation/RYJLocation.m; sourceTree = "<group>"; };
 		799B2507085D46DCC5513CB6A5B53999 /* YTKNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTKNetwork-umbrella.h"; sourceTree = "<group>"; };
@@ -287,16 +286,17 @@
 		7DC6AF8D87DD5C274023B58977E7168B /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkPrivate.h; path = YTKNetwork/YTKNetworkPrivate.h; sourceTree = "<group>"; };
 		7ECFABAE8739CA56D4056E3493FC1DCA /* RYJToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYJToolKit-umbrella.h"; sourceTree = "<group>"; };
 		82130161E55A4A506EDBB36FC8903389 /* ReachStateUnReachable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnReachable.h; path = RealReachability/FSM/ReachStateUnReachable.h; sourceTree = "<group>"; };
+		8215D5DF9C9A779FAF5FD2B367498261 /* UILabel+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UILabel+RYJTool.h"; sourceTree = "<group>"; };
 		8220055192CEB9E88E68762BD2B9B5F9 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		82D43C9762EE32B6523043977C55DE4C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		8389F7C489E8F3D36A3FFB4D553067D2 /* NSString+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSString+RYJTool.h"; sourceTree = "<group>"; };
-		8435F22732971B7F6F6817F633741064 /* UIButton+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIButton+RYJTool.m"; sourceTree = "<group>"; };
 		8642EDE260C10B9444C83F76EB546F40 /* RealReachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RealReachability.modulemap; sourceTree = "<group>"; };
-		88187ED62958CD129264117D6233B38B /* NSString+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSString+RYJTool.m"; sourceTree = "<group>"; };
 		89680E6E85A3834235A0BEC0F85A69EE /* Pods-RYJToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYJToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		8A18E425816374F3E2F0809A77EDBF8E /* YTKBatchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBatchRequest.m; path = YTKNetwork/YTKBatchRequest.m; sourceTree = "<group>"; };
 		8B8F53E1ADAA8026F3A5AF8EE70F3222 /* RYJToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RYJToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D66FFEC0FAA5945736697BB6C18E78A /* NSFileManager+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSFileManager+RYJTool.h"; sourceTree = "<group>"; };
+		90CDD42FCB61916E8F04E15CA928A0BF /* UIFont+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIFont+RYJTool.h"; sourceTree = "<group>"; };
 		92217C963571E920E23D5BF797BF7DDB /* RYJReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYJReachability.h; path = RYJToolKit/Classes/RYJNetwork/RYJReachability.h; sourceTree = "<group>"; };
+		9391E91DC002E2581E22D81A85DF9687 /* UIViewController+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIViewController+RYJTool.m"; sourceTree = "<group>"; };
 		94F4E7FE7BB665A15AC249DF3B899691 /* ReachStateUnloaded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnloaded.h; path = RealReachability/FSM/ReachStateUnloaded.h; sourceTree = "<group>"; };
 		9549E4C92E64F1B549F5B999D3252EA1 /* ReachState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachState.h; path = RealReachability/FSM/ReachState.h; sourceTree = "<group>"; };
 		95D2BB54AD0ED07D612FC372BE2B39D1 /* RealReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealReachability.framework; path = RealReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -306,17 +306,15 @@
 		9D4D47A6768DC35FB8E288526DBF1B5F /* YTKNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTKNetwork-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DDBA09C2C4A00EF8C8C6504110E3DCE /* LocalConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocalConnection.m; path = RealReachability/Connection/LocalConnection.m; sourceTree = "<group>"; };
-		9FB1612BE6634F7E9FB4ADA805FF4B00 /* NSArray+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSArray+RYJTool.m"; sourceTree = "<group>"; };
-		A028E594B1E45F0EA2DFDD90DB4DD154 /* UIFont+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIFont+RYJTool.h"; sourceTree = "<group>"; };
 		A0CA22357620FA36E46DBA8FCCCD3B1F /* ReachStateLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateLoading.h; path = RealReachability/FSM/ReachStateLoading.h; sourceTree = "<group>"; };
 		A12AC8A452F7E099AE3168DE21A3C381 /* RealReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RealReachability.m; path = RealReachability/RealReachability.m; sourceTree = "<group>"; };
 		A1625B9E35FFF0D2B0C51736CF607BB1 /* YTKRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKRequest.m; path = YTKNetwork/YTKRequest.m; sourceTree = "<group>"; };
+		A18B4B52F1AA31FD4BA2B882011CAB39 /* NSArray+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSArray+RYJTool.h"; sourceTree = "<group>"; };
 		A2A8443C3D74F54794BEF30C9147DAC6 /* FSMEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMEngine.h; path = RealReachability/FSM/FSMEngine.h; sourceTree = "<group>"; };
 		A37DC4337414E8DBA138790CB0297418 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5373AF0209C1AB229B6CBCCF3942405 /* RYJToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYJToolKit-dummy.m"; sourceTree = "<group>"; };
 		ABF72B794CC91322D2F6B9681A994074 /* YTKNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YTKNetwork-dummy.m"; sourceTree = "<group>"; };
-		AC00874EC2BD6293E167215E88BF8853 /* UIImage+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIImage+RYJTool.m"; sourceTree = "<group>"; };
 		AC896C1D88EB70D2ADB65CE939C8D51E /* Pods-RYJToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYJToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD916AC7976B93BBD40239E7316B36F5 /* ReachStateWIFI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWIFI.m; path = RealReachability/FSM/ReachStateWIFI.m; sourceTree = "<group>"; };
 		AE09CC452B9B4F6508B98B81AB8D8D20 /* YTKNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YTKNetwork.debug.xcconfig; sourceTree = "<group>"; };
@@ -327,9 +325,9 @@
 		B0428E5E8B110FE633CF26BB5A8C1949 /* RYJToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RYJToolKit-Info.plist"; sourceTree = "<group>"; };
 		B131025562083C8883DB3703C7EEC3DE /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
 		BC94A9269AE95AF2CF46CC100A6EDDB4 /* FSMEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMEngine.m; path = RealReachability/FSM/FSMEngine.m; sourceTree = "<group>"; };
-		BD53155E17BDF4721BCD535DEDF7E9CB /* UIImage+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIImage+RYJTool.h"; sourceTree = "<group>"; };
 		BDA547BCE910C85044447B3A46B0FB04 /* RealReachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealReachability-umbrella.h"; sourceTree = "<group>"; };
 		BDC9CEE6FE333F4AAFE06D5674D4EAE4 /* YTKChainRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKChainRequest.m; path = YTKNetwork/YTKChainRequest.m; sourceTree = "<group>"; };
+		BFDAC9E211CE81B43B0A7D4F24288272 /* NSArray+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSArray+RYJTool.m"; sourceTree = "<group>"; };
 		C0A833C234DFABDEACD838CEC2592CFB /* YTKNetworkConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkConfig.h; path = YTKNetwork/YTKNetworkConfig.h; sourceTree = "<group>"; };
 		C14E4C5EB03CC7827B96A6E8D3BE792D /* FSMStateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMStateUtil.h; path = RealReachability/FSM/FSMStateUtil.h; sourceTree = "<group>"; };
 		C2320EAB4192F6DCB543C14BE81AF6C8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
@@ -339,17 +337,14 @@
 		CA1A31B3FB2538FEA9E67C559A1CC7A0 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
 		CA620CCB6843D14899574FCCA7B8EE1C /* YTKNetworkAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkAgent.h; path = YTKNetwork/YTKNetworkAgent.h; sourceTree = "<group>"; };
 		CC47B8A8511E9C2CBCC51FEA2C724A24 /* RYJToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYJToolKit.release.xcconfig; sourceTree = "<group>"; };
-		CEF91498E1EA490D21D5D1E33B1E2538 /* UIFont+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIFont+RYJTool.m"; sourceTree = "<group>"; };
 		D11BFA4E2426C833F55D2F74E9E0E058 /* RealReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D302BF1B1F271F7542984CC3D31F9370 /* RealReachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealReachability.release.xcconfig; sourceTree = "<group>"; };
 		D59E93E45DB457E665B837B0D2376645 /* PingFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingFoundation.m; path = RealReachability/Ping/PingFoundation.m; sourceTree = "<group>"; };
 		D760A1AB8CC86D065B52AEC42BD7AB27 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		D7D833B64BDDF3CE9DD015712C9A5AF6 /* Pods-RYJToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYJToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DC6B7722D861D12B1DD8BEBC2EB2F9A3 /* NSFileManager+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSFileManager+RYJTool.h"; sourceTree = "<group>"; };
 		DCF54A7F371DE3B480158D4392C23B30 /* PingHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingHelper.m; path = RealReachability/Ping/PingHelper.m; sourceTree = "<group>"; };
 		DD13AB4613C8BED6B26C055A4C947D50 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		DF192C1A434FAF77FDCB3138E229338E /* RYJDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYJDate.h; path = RYJToolKit/Classes/RYJDate/RYJDate.h; sourceTree = "<group>"; };
-		DF6DBA929C13EB9D8E587785E9EA10E3 /* NSObject+RYJTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RYJTool.m"; path = "RYJToolKit/Classes/RYJToolCategory/Foundation/NSObject+RYJTool.m"; sourceTree = "<group>"; };
 		DFE6F522045647956AC5E1A1BB1B5A9D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		E281A7C5233872A0EEC348A36A535563 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		E3E9F2C04C684E30C048B72847F86776 /* Pods-RYJToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYJToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -363,6 +358,7 @@
 		EF4E6A097712DAC45DC5002282801966 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		F2582FFE9EAA4A35E5497619F2EA8768 /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKChainRequestAgent.h; path = YTKNetwork/YTKChainRequestAgent.h; sourceTree = "<group>"; };
 		F3B38EFC48531FD4D532DD18A8EFCA19 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		F6E9B9345B00181061C547C8294E33D7 /* UIViewController+RYJTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RYJTool.h"; path = "RYJToolKit/Classes/RYJToolCategory/UIKit/UIViewController+RYJTool.h"; sourceTree = "<group>"; };
 		F790935E6AD1C2FC2C10BCDF02721B37 /* Pods-RYJToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYJToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		FC275660496426DA99B565ED8A762F15 /* RYJToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYJToolKit.modulemap; sourceTree = "<group>"; };
 		FCE2ECF87D2D80EB4641EE02D55E52B5 /* Pods_RYJToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYJToolKit_Tests.framework; path = "Pods-RYJToolKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -372,13 +368,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13A3C2FD6F5F8D1656403B9C319A39F9 /* Frameworks */ = {
+		16DE04AA06E7496F6F281968C5B0BB6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FCFC80F25D669AFC7B5993A4093259E /* AFNetworking.framework in Frameworks */,
-				6E28FC2D4908E0A4F26EE2BBB166331D /* CFNetwork.framework in Frameworks */,
-				E7A5F363895D18EC4DDCD76B2B83079A /* Foundation.framework in Frameworks */,
+				31DD832B4F3A1FD48AB1ED41CD079F3C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +396,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88DD1C2CCF71D35B95BE168341A2A3A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08067E0B35F729AC0EF0834F337F2966 /* CTMediator.framework in Frameworks */,
+				8E75879BFCDC377E9FAC9A8612460FB3 /* Foundation.framework in Frameworks */,
+				3DD45A49831A956A5C3A4404BF97A0B6 /* RealReachability.framework in Frameworks */,
+				836DC6455001134C974DA4B7314C933C /* YTKNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95034A185B7BFE0DE03FB7DEB1D3A682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2115AF8633C2A06D30A4BF01E25B8D /* AFNetworking.framework in Frameworks */,
+				72E398F1181EC1AE9116FE239BC8875F /* CFNetwork.framework in Frameworks */,
+				9C2CD7134B8043E329AA8BAC6AE753AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1AFD73A579D044CF5330764B7B7466F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,43 +434,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E34EE0EBCD1D6F70FD71AFCF026786 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				432B31463FE518957AFC5BAB359E3A9A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA981669443E4A3B42CB5E9C3575CB22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D79816D3BDB67D6925F25EC105EBA5F7 /* CTMediator.framework in Frameworks */,
-				735BA8B5955EFE813BD6F17D61F76BD7 /* Foundation.framework in Frameworks */,
-				3717F3CF878899F20C8E221CE28C778C /* RealReachability.framework in Frameworks */,
-				B17EE45CD28A96DE3D60699F4F7CF11E /* YTKNetwork.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01DCFD3DF06CD48CD6171639F7C2C841 /* UIKit */ = {
+		012751122E83FE5681360D6FB267CF76 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				2B315E42822DEEA4DFB83894AECF4576 /* UIButton+RYJTool.h */,
-				8435F22732971B7F6F6817F633741064 /* UIButton+RYJTool.m */,
-				A028E594B1E45F0EA2DFDD90DB4DD154 /* UIFont+RYJTool.h */,
-				CEF91498E1EA490D21D5D1E33B1E2538 /* UIFont+RYJTool.m */,
-				BD53155E17BDF4721BCD535DEDF7E9CB /* UIImage+RYJTool.h */,
-				AC00874EC2BD6293E167215E88BF8853 /* UIImage+RYJTool.m */,
-				70C147994111C939F970B2CB54A8B646 /* UILabel+RYJTool.h */,
-				26990F89F611398F6CD976B9C0074651 /* UILabel+RYJTool.m */,
-				3A32BB7A78EB460984C18247A4DCFAF6 /* UIViewController+RYJTool.h */,
-				5BCE38366436067B217201D3738FCD83 /* UIViewController+RYJTool.m */,
+				A18B4B52F1AA31FD4BA2B882011CAB39 /* NSArray+RYJTool.h */,
+				BFDAC9E211CE81B43B0A7D4F24288272 /* NSArray+RYJTool.m */,
+				8D66FFEC0FAA5945736697BB6C18E78A /* NSFileManager+RYJTool.h */,
+				05390372DF53A9F5086315FBDC957638 /* NSFileManager+RYJTool.m */,
+				3BA7E400F3CEA22C7669BEEF9B9BE28C /* NSObject+RYJTool.h */,
+				3BD378299DBEE70AE3F69E74897EB525 /* NSObject+RYJTool.m */,
+				7483DE51099C0A41AACA84768658A300 /* NSString+RYJTool.h */,
+				405411F89A56799247411E78EE0227D3 /* NSString+RYJTool.m */,
 			);
-			name = UIKit;
+			name = Foundation;
 			sourceTree = "<group>";
 		};
 		02039C5FD647B5A556F504343AA00D70 /* RealReachability */ = {
@@ -563,7 +557,7 @@
 				A6FD27DA571D8043BE9B70C9B1D661D0 /* RYJNetwork */,
 				AD452F3C5E460E8340F59CDF543FAC15 /* RYJPermission */,
 				99999D7AA41C45DB38CCCF349171D3A4 /* RYJTimer */,
-				5EA1CC22B0B19C1ACA1004EF8CEAF2CA /* RYJToolCategory */,
+				DB51DED9E2163DBD6A5E69F782650B73 /* RYJToolCategory */,
 				F7082FEE7D2EE63B0C5AB0888716A30B /* Support Files */,
 			);
 			name = RYJToolKit;
@@ -600,6 +594,21 @@
 			name = NSURLSession;
 			sourceTree = "<group>";
 		};
+		3F9C486A85D0307EC90AF6918290D1C7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				90CDD42FCB61916E8F04E15CA928A0BF /* UIFont+RYJTool.h */,
+				263FBDFA0F9D80CAB213A72B536AEF87 /* UIFont+RYJTool.m */,
+				762EA238C9407F2EFFC4DA31D6006852 /* UIImage+RYJTool.h */,
+				4D5D59F8908A640C2BE03AA2BC3485CE /* UIImage+RYJTool.m */,
+				8215D5DF9C9A779FAF5FD2B367498261 /* UILabel+RYJTool.h */,
+				632DAF097157A21A486537E14E79E836 /* UILabel+RYJTool.m */,
+				F6E9B9345B00181061C547C8294E33D7 /* UIViewController+RYJTool.h */,
+				9391E91DC002E2581E22D81A85DF9687 /* UIViewController+RYJTool.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
 		4301BB6E88AE2EFB7672E40401D80CC5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -621,15 +630,6 @@
 				B3507EF4FEBF6E56CA4DB8B7C6A67CF4 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5EA1CC22B0B19C1ACA1004EF8CEAF2CA /* RYJToolCategory */ = {
-			isa = PBXGroup;
-			children = (
-				9F33E9F31769A21030046338DFF037F5 /* Foundation */,
-				01DCFD3DF06CD48CD6171639F7C2C841 /* UIKit */,
-			);
-			name = RYJToolCategory;
 			sourceTree = "<group>";
 		};
 		62AA4977897152420466236B588CD49F /* Serialization */ = {
@@ -729,21 +729,6 @@
 			name = RYJTimer;
 			sourceTree = "<group>";
 		};
-		9F33E9F31769A21030046338DFF037F5 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				66E83AE6E4400C36406907A24CF7EAE7 /* NSArray+RYJTool.h */,
-				9FB1612BE6634F7E9FB4ADA805FF4B00 /* NSArray+RYJTool.m */,
-				DC6B7722D861D12B1DD8BEBC2EB2F9A3 /* NSFileManager+RYJTool.h */,
-				41505B0DA4F364AFAF5BC511FB3E0592 /* NSFileManager+RYJTool.m */,
-				293B3E33D621C59D5321034A8FD42592 /* NSObject+RYJTool.h */,
-				DF6DBA929C13EB9D8E587785E9EA10E3 /* NSObject+RYJTool.m */,
-				8389F7C489E8F3D36A3FFB4D553067D2 /* NSString+RYJTool.h */,
-				88187ED62958CD129264117D6233B38B /* NSString+RYJTool.m */,
-			);
-			name = Foundation;
-			sourceTree = "<group>";
-		};
 		A6FD27DA571D8043BE9B70C9B1D661D0 /* RYJNetwork */ = {
 			isa = PBXGroup;
 			children = (
@@ -830,6 +815,15 @@
 			);
 			sourceTree = "<group>";
 		};
+		DB51DED9E2163DBD6A5E69F782650B73 /* RYJToolCategory */ = {
+			isa = PBXGroup;
+			children = (
+				012751122E83FE5681360D6FB267CF76 /* Foundation */,
+				3F9C486A85D0307EC90AF6918290D1C7 /* UIKit */,
+			);
+			name = RYJToolCategory;
+			sourceTree = "<group>";
+		};
 		E9158DA771EA49E47C4E35990A32AB2E /* RYJLocation */ = {
 			isa = PBXGroup;
 			children = (
@@ -900,6 +894,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18C988184CBAA9C2C6955A6BC9D255A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC777ED8EAEF2E0F19F991227B406602 /* YTKBaseRequest.h in Headers */,
+				46BA6AF6A400FF53C732EFCD8048E9C8 /* YTKBatchRequest.h in Headers */,
+				3A1511DB6254DE54C147AD45A12847DA /* YTKBatchRequestAgent.h in Headers */,
+				490EAE3A6F9A179CEE3598146BB73313 /* YTKChainRequest.h in Headers */,
+				5D4F78CD09B786831DA5EEFEE4BAEAAA /* YTKChainRequestAgent.h in Headers */,
+				A27E442412BF60ADA90F19F7A7066348 /* YTKNetwork-umbrella.h in Headers */,
+				AC46BB4276A2C6A23E5D5A6F896EC5B5 /* YTKNetwork.h in Headers */,
+				CA70FF338CD8333A593154BE00E00335 /* YTKNetworkAgent.h in Headers */,
+				AECACD38D186331D1E7F705C0376A73D /* YTKNetworkConfig.h in Headers */,
+				9F80A89662BF9A240FCE0C2161507697 /* YTKNetworkPrivate.h in Headers */,
+				958FD3F31DA6AEBFB07B2BF3F6F78404 /* YTKRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DBF34082F054E3267BDAC08350A2EA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -908,21 +920,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C3D423C2DCEA3C11C0C02CFC1AFCCCD /* Headers */ = {
+		632295C0FA3F711DD2FF6AE999A1FD6E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1A6942BAA83738D3BE1C138351CF64 /* YTKBaseRequest.h in Headers */,
-				C34A8AFDA332F66167B534AE46164706 /* YTKBatchRequest.h in Headers */,
-				C1D5C1A0638111E602F765A1AEC5F7CB /* YTKBatchRequestAgent.h in Headers */,
-				7D0B8611AC6D8F118C20292B6022C04A /* YTKChainRequest.h in Headers */,
-				2481AB40D94A032CB6B515D91A36D6E0 /* YTKChainRequestAgent.h in Headers */,
-				E2D480DDAE9976A15CE54B12711BF2FD /* YTKNetwork-umbrella.h in Headers */,
-				C6EBF0748D58F46970F6E1CEDAF58136 /* YTKNetwork.h in Headers */,
-				666448111208192DC663DB893172B557 /* YTKNetworkAgent.h in Headers */,
-				8A27AAC44AE7EECB708775F2242FD0E0 /* YTKNetworkConfig.h in Headers */,
-				FD749114B8BC861CCD3CE0A368F7079D /* YTKNetworkPrivate.h in Headers */,
-				0A13E4C734A9279EC6F531DF6B1FAF07 /* YTKRequest.h in Headers */,
+				7C8DEDA5448B63FC0B879A7B267EA9E8 /* NSArray+RYJTool.h in Headers */,
+				254C9DB94F609977DBDD6E28B3429A07 /* NSFileManager+RYJTool.h in Headers */,
+				D92EB3C6ED3C6C6D011995BB75192F5F /* NSObject+RYJTool.h in Headers */,
+				CBEB4F9A075F2E8DDEA3B496C3DEF66E /* NSString+RYJTool.h in Headers */,
+				EE0FA73AC86D144EB539858059609A68 /* RYJDate.h in Headers */,
+				2E6B1F7549E85ABBF87CA55210FA141B /* RYJLocation.h in Headers */,
+				FEA43F7FA6ED7291A1893654F8311015 /* RYJPermission.h in Headers */,
+				2C7C4768B875DAB942C567AEBA427DFE /* RYJReachability.h in Headers */,
+				842F12CA9B71D6C16BEECD098250DE3E /* RYJTimer.h in Headers */,
+				85302A379021DCE6E27932A5288BA705 /* RYJToolKit-umbrella.h in Headers */,
+				4F05302102FA9D767A9D860E9B231D8F /* RYJToolKit.h in Headers */,
+				C83BAD604818DCAC9278E3B5C8EE7D2A /* RYJToolMarco.h in Headers */,
+				210883F0610C6D5AB19BC70CD28A081F /* UIFont+RYJTool.h in Headers */,
+				EE4CECCAB83D912B0D007BB79EDB8713 /* UIImage+RYJTool.h in Headers */,
+				0AF59C75C3C773BCCDC892601A0D795E /* UILabel+RYJTool.h in Headers */,
+				1AD8F37D30207C1638826CFE948E29E9 /* UIViewController+RYJTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -934,48 +951,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1AE123578E0AB688FC461DEE6A4142D /* Headers */ = {
+		C978212381A67EA1407A35D5BEA16FDB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407D4BA3E6BF309ABF8244E4FD47F13B /* FSMDefines.h in Headers */,
-				89BB1185AD202F2109185138E192A1C2 /* FSMEngine.h in Headers */,
-				181F4A257E5CD68AC90EA506760BFF84 /* FSMStateUtil.h in Headers */,
-				BB39A736B18DACECC2C43FF328B867A3 /* LocalConnection.h in Headers */,
-				D0A8783A8CEE07068B71C89D8FD9E07B /* PingFoundation.h in Headers */,
-				3AE5A9183B4F78673643F3A13792C573 /* PingHelper.h in Headers */,
-				619BB73FB114EE7B4BCFF2FDEEA14C56 /* ReachState.h in Headers */,
-				BA3B22C0F51A05B0AC3F0C1D29FC820D /* ReachStateLoading.h in Headers */,
-				4C73E1D8F6ABC709DB2DD62EF71994C1 /* ReachStateUnloaded.h in Headers */,
-				0B226CD3F42767A279C042D82ED143C6 /* ReachStateUnReachable.h in Headers */,
-				3FCFBA7F69EFD7BE1BB80D2A3DAE2928 /* ReachStateWIFI.h in Headers */,
-				558C974C59B8B59E94E1A51B1BFBB741 /* ReachStateWWAN.h in Headers */,
-				2151D92D60F4EDA86D8F8172DF999FB9 /* RealReachability-umbrella.h in Headers */,
-				0CA04C641F73702CBB9D440483C6055C /* RealReachability.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE68E44BBBCB90F76C573BB1425F9C43 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C63609ABC18A7181A965CE189606CEB8 /* NSArray+RYJTool.h in Headers */,
-				C56851BC6AD22FB08577422D65AAC027 /* NSFileManager+RYJTool.h in Headers */,
-				AAF720C56E86B9476214169F688D45F8 /* NSObject+RYJTool.h in Headers */,
-				787B475C84AB6BE2D10CC7BFE8B7A63F /* NSString+RYJTool.h in Headers */,
-				70D91174D33E25973379AAE57247B306 /* RYJDate.h in Headers */,
-				22000D8618B9E84C25DC4670E343AD07 /* RYJLocation.h in Headers */,
-				E2586B86CE96A283969EF52421832FC1 /* RYJPermission.h in Headers */,
-				62F44ACC0DD7DDC5457E3343F6B8973E /* RYJReachability.h in Headers */,
-				A00E2F0826579DF9369AE8BC854E5AFD /* RYJTimer.h in Headers */,
-				30269CDE9C7418858E40AEB86A4A3CEC /* RYJToolKit-umbrella.h in Headers */,
-				5C206E42CB9B4BBEAF86B255E0AFEE6D /* RYJToolKit.h in Headers */,
-				26416221416AE2867B35D094B8FC115D /* RYJToolMarco.h in Headers */,
-				09296C5E07071561EA1A7667B5D1FDBF /* UIButton+RYJTool.h in Headers */,
-				4B59866883F888600AD7D343C84CB20A /* UIFont+RYJTool.h in Headers */,
-				F150D1F3BC34FF1D59084F4BB1C88CB5 /* UIImage+RYJTool.h in Headers */,
-				C7FAA9FF8B3CBA9E621264A73EDDE18B /* UILabel+RYJTool.h in Headers */,
-				76F5AD5C4015CDD3286E10B701E687B8 /* UIViewController+RYJTool.h in Headers */,
+				8739A42F1B138D10DE06BA81996F4351 /* FSMDefines.h in Headers */,
+				AA0D73F7E3A18460529947984B69F2D8 /* FSMEngine.h in Headers */,
+				F499D7720A1FEDE0271FE80D77FA555E /* FSMStateUtil.h in Headers */,
+				172A1F6CF52A2956A53FBE30EB0954E6 /* LocalConnection.h in Headers */,
+				7E5A3A26B9223BA667AE3A262B9AC691 /* PingFoundation.h in Headers */,
+				0B7FCAC2DAE7265582FF90676AF007BA /* PingHelper.h in Headers */,
+				2D0144A5AF65392B49DDB51F632757CB /* ReachState.h in Headers */,
+				15838B25CB258FB574D6110DC481C7CC /* ReachStateLoading.h in Headers */,
+				227FA8E34C4AF4684D9CC925C7F419C4 /* ReachStateUnloaded.h in Headers */,
+				1D347B9ED09A18E9D691968427C50C97 /* ReachStateUnReachable.h in Headers */,
+				4855B8EBD76003E4C4CC3DC8D0465A2E /* ReachStateWIFI.h in Headers */,
+				DD6573A43669B705B00DE3D57DDBACCB /* ReachStateWWAN.h in Headers */,
+				3B9C84432269F461FC4C06645C3D1D0B /* RealReachability-umbrella.h in Headers */,
+				1B97559540A6BEAB9CC09F51FD77D6B9 /* RealReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1027,7 +1020,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EF0EBBDC60A96AB3F6B0880FA86FA295 /* PBXTargetDependency */,
+				A40BE1599B7BA56A897D0FF4E5AB0DD0 /* PBXTargetDependency */,
 			);
 			name = "Pods-RYJToolKit_Tests";
 			productName = "Pods-RYJToolKit_Tests";
@@ -1046,11 +1039,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				BD54BEF3D4F4BEE060973CB2EEAC9D3E /* PBXTargetDependency */,
-				06BD980F86D0FA40CF1D8CC9F669F632 /* PBXTargetDependency */,
-				FB4F365182BAC597BA09360E22B7E1D0 /* PBXTargetDependency */,
-				19E3B48351875E9956FF8DBC3EA3F092 /* PBXTargetDependency */,
-				D22CFD4AF21367A184F63DB4140EE40F /* PBXTargetDependency */,
+				B0824573096851545FCEC81E3DDF33C6 /* PBXTargetDependency */,
+				E04A13528C27533BDE844FE10CB5DFD2 /* PBXTargetDependency */,
+				FE1CED1180E88A3C1A891D30BFC77A39 /* PBXTargetDependency */,
+				39451CA5CD2F436960AAB134904ED1D4 /* PBXTargetDependency */,
+				B1FD508AABF519B86223314A6AE743FE /* PBXTargetDependency */,
 			);
 			name = "Pods-RYJToolKit_Example";
 			productName = "Pods-RYJToolKit_Example";
@@ -1077,17 +1070,17 @@
 		};
 		AC51EA5BE1682F8277BE5F13677E147C /* YTKNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71748490963C8C5484F12860F25F61DF /* Build configuration list for PBXNativeTarget "YTKNetwork" */;
+			buildConfigurationList = 880D564954F9B5D753263AB312730578 /* Build configuration list for PBXNativeTarget "YTKNetwork" */;
 			buildPhases = (
-				7C3D423C2DCEA3C11C0C02CFC1AFCCCD /* Headers */,
-				41B11F15B89F8B0B112B9EF143494F04 /* Sources */,
-				13A3C2FD6F5F8D1656403B9C319A39F9 /* Frameworks */,
-				4E64CA1509077DA67229F34EF344C817 /* Resources */,
+				18C988184CBAA9C2C6955A6BC9D255A0 /* Headers */,
+				4645E19230CCC05D595EA9DBBCB65EE4 /* Sources */,
+				95034A185B7BFE0DE03FB7DEB1D3A682 /* Frameworks */,
+				AB65A2D3F6F9D0824FEF0C94E133E103 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				36EA260C5C6D48D92BAD811C503C6D92 /* PBXTargetDependency */,
+				5450138AA09712D241665D9CF7F3C926 /* PBXTargetDependency */,
 			);
 			name = YTKNetwork;
 			productName = YTKNetwork;
@@ -1096,19 +1089,19 @@
 		};
 		B4D6EC861E4F06215495DE7C210AE46C /* RYJToolKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C12C2B07890AA6902C19611E1B223250 /* Build configuration list for PBXNativeTarget "RYJToolKit" */;
+			buildConfigurationList = D73F38CC248BA20ED8B29EB718C9DB0E /* Build configuration list for PBXNativeTarget "RYJToolKit" */;
 			buildPhases = (
-				EE68E44BBBCB90F76C573BB1425F9C43 /* Headers */,
-				AF4F2ED50BAC8B6CEF64F1F4434711C0 /* Sources */,
-				FA981669443E4A3B42CB5E9C3575CB22 /* Frameworks */,
-				B2C17355DD80AC8FDD52667F9BC553A3 /* Resources */,
+				632295C0FA3F711DD2FF6AE999A1FD6E /* Headers */,
+				E1A89500519800856A0CCF686E79B6A6 /* Sources */,
+				88DD1C2CCF71D35B95BE168341A2A3A0 /* Frameworks */,
+				2C836C30C53F5276086B6CC6CE8061B8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CB82D44098C85B756AAA1AAEDDF12C3E /* PBXTargetDependency */,
-				ADEE0DDE4F4105E1DAF13C89F8A93E7C /* PBXTargetDependency */,
-				CF83443F421DF7D86F9DC8EF17CAC81E /* PBXTargetDependency */,
+				8674CF70657492559CE6BCD41501224F /* PBXTargetDependency */,
+				480D6E9F9B9F19965B14FC2A4032170A /* PBXTargetDependency */,
+				0D34EA36CB063F82F797A1CF9E47785A /* PBXTargetDependency */,
 			);
 			name = RYJToolKit;
 			productName = RYJToolKit;
@@ -1117,12 +1110,12 @@
 		};
 		D877AA5CCB5772505261462171EF8A75 /* RealReachability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA186956B3A10B3EBAA6448470BB05EF /* Build configuration list for PBXNativeTarget "RealReachability" */;
+			buildConfigurationList = E2D587C1F7DF88924F82A98AB70AC3C0 /* Build configuration list for PBXNativeTarget "RealReachability" */;
 			buildPhases = (
-				C1AE123578E0AB688FC461DEE6A4142D /* Headers */,
-				5DED1F6648A26F67A48C477E77739149 /* Sources */,
-				D4E34EE0EBCD1D6F70FD71AFCF026786 /* Frameworks */,
-				8BF9B9CC57DF661E2110801789A8FFD4 /* Resources */,
+				C978212381A67EA1407A35D5BEA16FDB /* Headers */,
+				6A025BD58195C65198CF9CCE7B793F0B /* Sources */,
+				16DE04AA06E7496F6F281968C5B0BB6A /* Frameworks */,
+				35DC0CCE1480EF04D54667E0FF73848E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1174,14 +1167,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		481C10B3776A5E58905C32979492C217 /* Resources */ = {
+		2C836C30C53F5276086B6CC6CE8061B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E64CA1509077DA67229F34EF344C817 /* Resources */ = {
+		35DC0CCE1480EF04D54667E0FF73848E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		481C10B3776A5E58905C32979492C217 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1195,13 +1195,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BF9B9CC57DF661E2110801789A8FFD4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A697C861232D981D33BAA24BF4F99825 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1209,7 +1202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2C17355DD80AC8FDD52667F9BC553A3 /* Resources */ = {
+		AB65A2D3F6F9D0824FEF0C94E133E103 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1219,40 +1212,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41B11F15B89F8B0B112B9EF143494F04 /* Sources */ = {
+		4645E19230CCC05D595EA9DBBCB65EE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F1FA56D21101C5027EF107D8F07213 /* YTKBaseRequest.m in Sources */,
-				77D15A37134D5563EDA18327030ECB8A /* YTKBatchRequest.m in Sources */,
-				793935080AF09E420C0EEE6F21D1EC0F /* YTKBatchRequestAgent.m in Sources */,
-				122FFA313EC1A875BE5552130D7AC76E /* YTKChainRequest.m in Sources */,
-				93C0D2020602758F5A6677280ACC6FF1 /* YTKChainRequestAgent.m in Sources */,
-				853CC811FD5F0AF4CE87FC1F4C56C45D /* YTKNetwork-dummy.m in Sources */,
-				3FCA2900FFE33CEC0A40A303C0EEB4BA /* YTKNetworkAgent.m in Sources */,
-				0245CB297244A18DF8E17F51C9941AC2 /* YTKNetworkConfig.m in Sources */,
-				35EBD4FBCEBB25C10D1949138666ECBC /* YTKNetworkPrivate.m in Sources */,
-				EDC07B15752D7EBA1BC6D4B1A3BB6DCE /* YTKRequest.m in Sources */,
+				47648828C39E6B885877BACAC80F77A4 /* YTKBaseRequest.m in Sources */,
+				2D75B125397D0436337E76E05D768572 /* YTKBatchRequest.m in Sources */,
+				88B0EB81C1C06E9B1A736BFC6B4988AE /* YTKBatchRequestAgent.m in Sources */,
+				61997690384575932DD193972B12BFB2 /* YTKChainRequest.m in Sources */,
+				4796731E7712568BE3670F32D33B40C2 /* YTKChainRequestAgent.m in Sources */,
+				258A57DF18EFE1F6B9FDDF81E0AE872F /* YTKNetwork-dummy.m in Sources */,
+				EB8366817999F722BA379A142D540329 /* YTKNetworkAgent.m in Sources */,
+				973088ADB83EF5B6F1E6BD35E8EB6891 /* YTKNetworkConfig.m in Sources */,
+				5BAC71A83294C054FA2F2BBCD1072BFE /* YTKNetworkPrivate.m in Sources */,
+				A2855E064480DD30006ECD279428EC77 /* YTKRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DED1F6648A26F67A48C477E77739149 /* Sources */ = {
+		6A025BD58195C65198CF9CCE7B793F0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6430789BB5994D04AE2D4E0210FE4E3 /* FSMEngine.m in Sources */,
-				49A9BBDF7659368DDDF848D462300D40 /* FSMStateUtil.m in Sources */,
-				D7A1D6644136CF5CC37985328B704FCB /* LocalConnection.m in Sources */,
-				AAE49EC0187D90562163E73673877042 /* PingFoundation.m in Sources */,
-				BBAC10C1F2B729091A49C9AA8E0D4965 /* PingHelper.m in Sources */,
-				6B93687229CA481D1481AE47DFD23DC2 /* ReachState.m in Sources */,
-				CB16239DEAFA1BC7D74C5204AA3DD3D8 /* ReachStateLoading.m in Sources */,
-				6D33C48349226A8528DDB64201D8B836 /* ReachStateUnloaded.m in Sources */,
-				25EABE8797C1B3C86F9F9201C309D984 /* ReachStateUnReachable.m in Sources */,
-				3EF9927399630ECEEF131312ECB60858 /* ReachStateWIFI.m in Sources */,
-				F0E36100BAA405FAD64917477EF9A340 /* ReachStateWWAN.m in Sources */,
-				833258DE959E0B56646D538241EF106E /* RealReachability-dummy.m in Sources */,
-				4F2D3698C4A8861BF7886DEC87361A3B /* RealReachability.m in Sources */,
+				C7697714C50A52F7DE5CD8D7D170FA7A /* FSMEngine.m in Sources */,
+				878B531751E65AEEE76A348AB72DA7C7 /* FSMStateUtil.m in Sources */,
+				D7124C728D83426C1A3CDDABE2EF8F75 /* LocalConnection.m in Sources */,
+				2CA775129E8283960D4203C963E13385 /* PingFoundation.m in Sources */,
+				F460EA11B4B5A0049489417DE51AB7E6 /* PingHelper.m in Sources */,
+				B8F620ACD067ACB3A0AEDD914B84DC48 /* ReachState.m in Sources */,
+				AAC1F7490AC3EEDA72825C6CD9ED0D2D /* ReachStateLoading.m in Sources */,
+				0806B4038EE4DC0AAAA27C02FA8211C0 /* ReachStateUnloaded.m in Sources */,
+				A5D6FC483D7B739BD6E28C39B75D0E2C /* ReachStateUnReachable.m in Sources */,
+				ABEACB76144659FF757DDCC883CB9102 /* ReachStateWIFI.m in Sources */,
+				2BB80C65D81BD8A365E1031BEDCD324A /* ReachStateWWAN.m in Sources */,
+				A8367DC0A59BD75C3727A6D48A1C8080 /* RealReachability-dummy.m in Sources */,
+				477FE485A172392325C462485E335C83 /* RealReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1286,25 +1279,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF4F2ED50BAC8B6CEF64F1F4434711C0 /* Sources */ = {
+		E1A89500519800856A0CCF686E79B6A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB9E2F56C09BA6D5D23905D7CE5AEF0E /* NSArray+RYJTool.m in Sources */,
-				5CD474D8681066CE9B75ED69C2072D66 /* NSFileManager+RYJTool.m in Sources */,
-				868788A32257EEDE5822DD528B7ABDC7 /* NSObject+RYJTool.m in Sources */,
-				18E1C70123AB7D95BB7CC6C039A632A0 /* NSString+RYJTool.m in Sources */,
-				445DCE197775E8B61DEB23E4521686D0 /* RYJDate.m in Sources */,
-				EE88C74291E64C1DDE606B353E342EC2 /* RYJLocation.m in Sources */,
-				A965C69C4C84332DF010B80367DC8677 /* RYJPermission.m in Sources */,
-				6EFE2A44D9967883D92C202569098ED0 /* RYJReachability.m in Sources */,
-				00AB1B8A272DA1BF01673379FB641FE4 /* RYJTimer.m in Sources */,
-				809D462A1B1BB4C026F0FCDE2809E32C /* RYJToolKit-dummy.m in Sources */,
-				86B9B65B745CE699047E49D5E42A0339 /* UIButton+RYJTool.m in Sources */,
-				439CFAC6FFF3A6D07DB621C011E7E330 /* UIFont+RYJTool.m in Sources */,
-				CA4340E9BD80C0B6F98FF7D9B2CCAB5F /* UIImage+RYJTool.m in Sources */,
-				DD32B15BBF31C6233A55E4688AD23EF5 /* UILabel+RYJTool.m in Sources */,
-				DC6E4439E32918021FA86F4623B9BD84 /* UIViewController+RYJTool.m in Sources */,
+				D8483701B7FFA1033BF85B09621DF2F9 /* NSArray+RYJTool.m in Sources */,
+				E2BA68C959BD1ABABFF4F33B3247A340 /* NSFileManager+RYJTool.m in Sources */,
+				8B39984CF7C5F0AE8924B9BE36C12FB0 /* NSObject+RYJTool.m in Sources */,
+				09E91A4653A458B7EC34AB357DF8E907 /* NSString+RYJTool.m in Sources */,
+				F69F0C6CC47B95A90007BA723E9BFF60 /* RYJDate.m in Sources */,
+				A2959F00ACDA2289703CA5B038C80EBC /* RYJLocation.m in Sources */,
+				789B3CC070C0A19C89A0B85E9E851B6C /* RYJPermission.m in Sources */,
+				AA0D9E01AE343A5CC7423FFFCCCF5D94 /* RYJReachability.m in Sources */,
+				C17118BD4BA4CBBEE2B3C666C8644925 /* RYJTimer.m in Sources */,
+				21999CD6B4B5DC8B7CD34FB0002978A0 /* RYJToolKit-dummy.m in Sources */,
+				CB348FFE35081E58254D0FC2BFD45C72 /* UIFont+RYJTool.m in Sources */,
+				9DA7C1AFAC09E8677A822DFCA1C2B9A7 /* UIImage+RYJTool.m in Sources */,
+				3B36C17649EF23608E08FE7C11B6BA8F /* UILabel+RYJTool.m in Sources */,
+				8D538D7A29DDC1F9B14EFCA3EDC0EA86 /* UIViewController+RYJTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1321,69 +1313,99 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06BD980F86D0FA40CF1D8CC9F669F632 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = BEA6B87D76C14E5917638BD4BA717A27 /* PBXContainerItemProxy */;
-		};
-		19E3B48351875E9956FF8DBC3EA3F092 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RealReachability;
-			target = D877AA5CCB5772505261462171EF8A75 /* RealReachability */;
-			targetProxy = 1EDCB29F5389DC800DE7D0E01B2CF60A /* PBXContainerItemProxy */;
-		};
-		36EA260C5C6D48D92BAD811C503C6D92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 439DDA9AF95BC48FA0544DC2DD9B2D1F /* PBXContainerItemProxy */;
-		};
-		ADEE0DDE4F4105E1DAF13C89F8A93E7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RealReachability;
-			target = D877AA5CCB5772505261462171EF8A75 /* RealReachability */;
-			targetProxy = C567E6A0FD260BD6E1B2FFC0EF3CBE1D /* PBXContainerItemProxy */;
-		};
-		BD54BEF3D4F4BEE060973CB2EEAC9D3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = E3844C525B570B6ABADB6BFE008EB5FB /* PBXContainerItemProxy */;
-		};
-		CB82D44098C85B756AAA1AAEDDF12C3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 32386543F7751123D4DFF30CEAC488AD /* PBXContainerItemProxy */;
-		};
-		CF83443F421DF7D86F9DC8EF17CAC81E /* PBXTargetDependency */ = {
+		0D34EA36CB063F82F797A1CF9E47785A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YTKNetwork;
 			target = AC51EA5BE1682F8277BE5F13677E147C /* YTKNetwork */;
-			targetProxy = 39785AAF45CD5BFEFB719455D8B3F417 /* PBXContainerItemProxy */;
+			targetProxy = 473238DCF00EF48484F979E545080C1A /* PBXContainerItemProxy */;
 		};
-		D22CFD4AF21367A184F63DB4140EE40F /* PBXTargetDependency */ = {
+		39451CA5CD2F436960AAB134904ED1D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = YTKNetwork;
-			target = AC51EA5BE1682F8277BE5F13677E147C /* YTKNetwork */;
-			targetProxy = 9D7039DF17110DD735521A43AF033A86 /* PBXContainerItemProxy */;
+			name = RealReachability;
+			target = D877AA5CCB5772505261462171EF8A75 /* RealReachability */;
+			targetProxy = A578E5E73A8CF2A689F66CCA071671D3 /* PBXContainerItemProxy */;
 		};
-		EF0EBBDC60A96AB3F6B0880FA86FA295 /* PBXTargetDependency */ = {
+		480D6E9F9B9F19965B14FC2A4032170A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealReachability;
+			target = D877AA5CCB5772505261462171EF8A75 /* RealReachability */;
+			targetProxy = 926AC736A617408AD776D999BB6A6445 /* PBXContainerItemProxy */;
+		};
+		5450138AA09712D241665D9CF7F3C926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = E87FE4C62F461203E3FEE0D334D90AED /* PBXContainerItemProxy */;
+		};
+		8674CF70657492559CE6BCD41501224F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 0CFD84F115F7E55BC19592F69DC68079 /* PBXContainerItemProxy */;
+		};
+		A40BE1599B7BA56A897D0FF4E5AB0DD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RYJToolKit_Example";
 			target = 2D92241F879D20E763ACD2489954F3F5 /* Pods-RYJToolKit_Example */;
-			targetProxy = BCC3F36164701C4F4B1C52C1CB778186 /* PBXContainerItemProxy */;
+			targetProxy = EC1EE00B35C26D7BBEAE10CC32C4F51F /* PBXContainerItemProxy */;
 		};
-		FB4F365182BAC597BA09360E22B7E1D0 /* PBXTargetDependency */ = {
+		B0824573096851545FCEC81E3DDF33C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = AA6615DA29E483355F7E1B3A3B7F13A4 /* PBXContainerItemProxy */;
+		};
+		B1FD508AABF519B86223314A6AE743FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YTKNetwork;
+			target = AC51EA5BE1682F8277BE5F13677E147C /* YTKNetwork */;
+			targetProxy = 57D8919B3F659F990D7F657382470096 /* PBXContainerItemProxy */;
+		};
+		E04A13528C27533BDE844FE10CB5DFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 8146758AD2E67B87A79A132EA07E16E3 /* PBXContainerItemProxy */;
+		};
+		FE1CED1180E88A3C1A891D30BFC77A39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RYJToolKit;
 			target = B4D6EC861E4F06215495DE7C210AE46C /* RYJToolKit */;
-			targetProxy = DD43A5CAA5FD10FB11221D67D7A8BFAE /* PBXContainerItemProxy */;
+			targetProxy = BB5F3AD3BD6C315660955554735E9484 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		098A68F47E86004DE1ABD37FB702D1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419F3408F987BB0CBA4BBAED1C994A70 /* RealReachability.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RealReachability/RealReachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RealReachability/RealReachability.modulemap";
+				PRODUCT_MODULE_NAME = RealReachability;
+				PRODUCT_NAME = RealReachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		16F90B541887C5840FFAE03FA9FFB42A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D6F6C9B1124441D359E36F7DE7398D7 /* AFNetworking.debug.xcconfig */;
@@ -1475,9 +1497,9 @@
 			};
 			name = Debug;
 		};
-		1E250D40F3D66328E220B275A9CA3C03 /* Release */ = {
+		1CBABC5B617F92800052F1F7FE6E16B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC47B8A8511E9C2CBCC51FEA2C724A24 /* RYJToolKit.release.xcconfig */;
+			baseConfigurationReference = D302BF1B1F271F7542984CC3D31F9370 /* RealReachability.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1487,14 +1509,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RYJToolKit/RYJToolKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RYJToolKit/RYJToolKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RealReachability/RealReachability-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RYJToolKit/RYJToolKit.modulemap";
-				PRODUCT_MODULE_NAME = RYJToolKit;
-				PRODUCT_NAME = RYJToolKit;
+				MODULEMAP_FILE = "Target Support Files/RealReachability/RealReachability.modulemap";
+				PRODUCT_MODULE_NAME = RealReachability;
+				PRODUCT_NAME = RealReachability;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1506,7 +1528,7 @@
 			};
 			name = Release;
 		};
-		26CD254EC0AD57D05C008B6EA90498B2 /* Debug */ = {
+		1D9D028FC3792428F70BC2234D3A4583 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32157C9E6A797F16D3A88DC5A46DC381 /* RYJToolKit.debug.xcconfig */;
 			buildSettings = {
@@ -1562,36 +1584,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		51895DCF525A5A56FE7525BDC4052E3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE09CC452B9B4F6508B98B81AB8D8D20 /* YTKNetwork.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YTKNetwork/YTKNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YTKNetwork/YTKNetwork-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YTKNetwork/YTKNetwork.modulemap";
-				PRODUCT_MODULE_NAME = YTKNetwork;
-				PRODUCT_NAME = YTKNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1660,37 +1652,6 @@
 			};
 			name = Release;
 		};
-		838B696A518657C649BCCA3281BCB186 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C802A719713D8CADFB827CFC8166F28 /* YTKNetwork.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YTKNetwork/YTKNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YTKNetwork/YTKNetwork-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YTKNetwork/YTKNetwork.modulemap";
-				PRODUCT_MODULE_NAME = YTKNetwork;
-				PRODUCT_NAME = YTKNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		854972BE6C4631FF8E5F3C6565731304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69CC3DDA0F5C633873AFB714329589DC /* Pods-RYJToolKit_Example.debug.xcconfig */;
@@ -1722,6 +1683,67 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		92B633FEED740FE410E2E48B5DCEACC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE09CC452B9B4F6508B98B81AB8D8D20 /* YTKNetwork.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YTKNetwork/YTKNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YTKNetwork/YTKNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YTKNetwork/YTKNetwork.modulemap";
+				PRODUCT_MODULE_NAME = YTKNetwork;
+				PRODUCT_NAME = YTKNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A767439865189C259582DD9489C6516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C802A719713D8CADFB827CFC8166F28 /* YTKNetwork.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YTKNetwork/YTKNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YTKNetwork/YTKNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YTKNetwork/YTKNetwork.modulemap";
+				PRODUCT_MODULE_NAME = YTKNetwork;
+				PRODUCT_NAME = YTKNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A02D01ED8A69201AF18C9B3D00694B11 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1756,9 +1778,9 @@
 			};
 			name = Release;
 		};
-		AA71DF24D698D99760831C29670E67DB /* Debug */ = {
+		CD1E399C061D64C02EE6FE7FD9B959D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 419F3408F987BB0CBA4BBAED1C994A70 /* RealReachability.debug.xcconfig */;
+			baseConfigurationReference = CC47B8A8511E9C2CBCC51FEA2C724A24 /* RYJToolKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1768,23 +1790,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RealReachability/RealReachability-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RYJToolKit/RYJToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYJToolKit/RYJToolKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RealReachability/RealReachability.modulemap";
-				PRODUCT_MODULE_NAME = RealReachability;
-				PRODUCT_NAME = RealReachability;
+				MODULEMAP_FILE = "Target Support Files/RYJToolKit/RYJToolKit.modulemap";
+				PRODUCT_MODULE_NAME = RYJToolKit;
+				PRODUCT_NAME = RYJToolKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D15E7D1098E5B446585892AE063F6A7F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1806,37 +1829,6 @@
 				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
 				PRODUCT_MODULE_NAME = CTMediator;
 				PRODUCT_NAME = CTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D341B9B4DD63A952546A876E48C5100E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D302BF1B1F271F7542984CC3D31F9370 /* RealReachability.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RealReachability/RealReachability-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RealReachability/RealReachability.modulemap";
-				PRODUCT_MODULE_NAME = RealReachability;
-				PRODUCT_NAME = RealReachability;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1977,15 +1969,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71748490963C8C5484F12860F25F61DF /* Build configuration list for PBXNativeTarget "YTKNetwork" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51895DCF525A5A56FE7525BDC4052E3E /* Debug */,
-				838B696A518657C649BCCA3281BCB186 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7AFDF6F0920DEA920A66453151617A5D /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1995,20 +1978,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C12C2B07890AA6902C19611E1B223250 /* Build configuration list for PBXNativeTarget "RYJToolKit" */ = {
+		880D564954F9B5D753263AB312730578 /* Build configuration list for PBXNativeTarget "YTKNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26CD254EC0AD57D05C008B6EA90498B2 /* Debug */,
-				1E250D40F3D66328E220B275A9CA3C03 /* Release */,
+				92B633FEED740FE410E2E48B5DCEACC2 /* Debug */,
+				9A767439865189C259582DD9489C6516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA186956B3A10B3EBAA6448470BB05EF /* Build configuration list for PBXNativeTarget "RealReachability" */ = {
+		D73F38CC248BA20ED8B29EB718C9DB0E /* Build configuration list for PBXNativeTarget "RYJToolKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA71DF24D698D99760831C29670E67DB /* Debug */,
-				D341B9B4DD63A952546A876E48C5100E /* Release */,
+				1D9D028FC3792428F70BC2234D3A4583 /* Debug */,
+				CD1E399C061D64C02EE6FE7FD9B959D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2018,6 +2001,15 @@
 			buildConfigurations = (
 				1C04C08215320E43F84D93E62D822E73 /* Debug */,
 				D15E7D1098E5B446585892AE063F6A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D587C1F7DF88924F82A98AB70AC3C0 /* Build configuration list for PBXNativeTarget "RealReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098A68F47E86004DE1ABD37FB702D1CD /* Debug */,
+				1CBABC5B617F92800052F1F7FE6E16B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 {
   "name": "RYJToolKit",
-  "version": "0.3.4",
+  "version": "0.3.6",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/developRen/RYJToolKit.git",
-    "tag": "0.3.4"
+    "tag": "0.3.6"
   },
   "platforms": {
     "ios": "8.0"
@@ -76,7 +76,6 @@
           },
           "source_files": [
             "RYJToolKit/Classes/RYJToolCategory/UIKit/UIImage+RYJTool.{h,m}",
-            "RYJToolKit/Classes/RYJToolCategory/UIKit/UIButton+RYJTool.{h,m}",
             "RYJToolKit/Classes/RYJToolCategory/UIKit/UIFont+RYJTool.{h,m}",
             "RYJToolKit/Classes/RYJToolCategory/UIKit/UILabel+RYJTool.{h,m}",
             "RYJToolKit/Classes/RYJToolCategory/UIKit/UIViewController+RYJTool.{h,m}"

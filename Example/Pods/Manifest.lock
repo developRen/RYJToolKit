@@ -12,40 +12,40 @@ PODS:
     - RealReachability/Ping (= 1.3.0)
   - RealReachability/Connection (1.3.0)
   - RealReachability/Ping (1.3.0)
-  - RYJToolKit (0.3.4):
+  - RYJToolKit (0.3.6):
     - CTMediator
-    - RYJToolKit/RYJDate (= 0.3.4)
-    - RYJToolKit/RYJLocation (= 0.3.4)
-    - RYJToolKit/RYJNetwork (= 0.3.4)
-    - RYJToolKit/RYJPermission (= 0.3.4)
-    - RYJToolKit/RYJTimer (= 0.3.4)
-    - RYJToolKit/RYJToolCategory (= 0.3.4)
+    - RYJToolKit/RYJDate (= 0.3.6)
+    - RYJToolKit/RYJLocation (= 0.3.6)
+    - RYJToolKit/RYJNetwork (= 0.3.6)
+    - RYJToolKit/RYJPermission (= 0.3.6)
+    - RYJToolKit/RYJTimer (= 0.3.6)
+    - RYJToolKit/RYJToolCategory (= 0.3.6)
     - YTKNetwork
-  - RYJToolKit/RYJDate (0.3.4):
-    - CTMediator
-    - YTKNetwork
-  - RYJToolKit/RYJLocation (0.3.4):
+  - RYJToolKit/RYJDate (0.3.6):
     - CTMediator
     - YTKNetwork
-  - RYJToolKit/RYJNetwork (0.3.4):
+  - RYJToolKit/RYJLocation (0.3.6):
+    - CTMediator
+    - YTKNetwork
+  - RYJToolKit/RYJNetwork (0.3.6):
     - CTMediator
     - RealReachability
     - YTKNetwork
-  - RYJToolKit/RYJPermission (0.3.4):
+  - RYJToolKit/RYJPermission (0.3.6):
     - CTMediator
     - YTKNetwork
-  - RYJToolKit/RYJTimer (0.3.4):
+  - RYJToolKit/RYJTimer (0.3.6):
     - CTMediator
     - YTKNetwork
-  - RYJToolKit/RYJToolCategory (0.3.4):
+  - RYJToolKit/RYJToolCategory (0.3.6):
     - CTMediator
-    - RYJToolKit/RYJToolCategory/Foundation (= 0.3.4)
-    - RYJToolKit/RYJToolCategory/UIKit (= 0.3.4)
+    - RYJToolKit/RYJToolCategory/Foundation (= 0.3.6)
+    - RYJToolKit/RYJToolCategory/UIKit (= 0.3.6)
     - YTKNetwork
-  - RYJToolKit/RYJToolCategory/Foundation (0.3.4):
+  - RYJToolKit/RYJToolCategory/Foundation (0.3.6):
     - CTMediator
     - YTKNetwork
-  - RYJToolKit/RYJToolCategory/UIKit (0.3.4):
+  - RYJToolKit/RYJToolCategory/UIKit (0.3.6):
     - CTMediator
     - RYJToolKit/RYJToolCategory/Foundation
     - YTKNetwork
@@ -70,7 +70,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
-  RYJToolKit: ffef707ba13cc2700df386043c4c9c9cbc5a3f44
+  RYJToolKit: 35bb8bdb4993c878a2ae758de96be1041023c618
   YTKNetwork: 19be749c30f0512ada07180f4637b4b67bc8ddc2
 
 PODFILE CHECKSUM: 4ea56b659cc647fb55199ef1bd596c4e964ab0aa

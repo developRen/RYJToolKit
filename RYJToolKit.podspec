@@ -58,7 +58,6 @@ Pod::Spec.new do |s|
        ss.subspec 'UIKit' do |ss|
             ss.dependency 'RYJToolKit/RYJToolCategory/Foundation'
             ss.source_files = 'RYJToolKit/Classes/RYJToolCategory/UIKit/UIImage+RYJTool.{h,m}',
-            'RYJToolKit/Classes/RYJToolCategory/UIKit/UIButton+RYJTool.{h,m}',
             'RYJToolKit/Classes/RYJToolCategory/UIKit/UIFont+RYJTool.{h,m}',
             'RYJToolKit/Classes/RYJToolCategory/UIKit/UILabel+RYJTool.{h,m}',
             'RYJToolKit/Classes/RYJToolCategory/UIKit/UIViewController+RYJTool.{h,m}'

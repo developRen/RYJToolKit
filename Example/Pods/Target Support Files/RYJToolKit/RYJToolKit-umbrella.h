@@ -22,7 +22,6 @@
 #import "NSObject+RYJTool.h"
 #import "NSString+RYJTool.h"
 #import "UIImage+RYJTool.h"
-#import "UIButton+RYJTool.h"
 #import "UIFont+RYJTool.h"
 #import "UILabel+RYJTool.h"
 #import "UIViewController+RYJTool.h"
