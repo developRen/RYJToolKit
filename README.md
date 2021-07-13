@@ -43,7 +43,7 @@
 在你的Podfile中添加以下代码,运行`pod install`。
 
 ```ruby
-pod 'RYJToolKit','~> 0.3.6'
+pod 'RYJToolKit','~> 0.3.7'
 ```
 
 
